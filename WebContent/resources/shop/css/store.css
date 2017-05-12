@@ -1,0 +1,724 @@
+@charset "utf-8";
+
+/*
+ * Copyright 2005-2013 rsico. All rights reserved.
+ * Support: http://www.wit.net
+ * License: http://www.wit.net/license
+ * 
+ * Style - Index
+ * Version: 3.0
+ */
+
+/* ---------- Index ---------- */
+
+.content {
+	width: 779px; padding-bottom: 30px; float: right; min-height: 0px; _height: 0px;
+}
+div.index .slider {
+	height: 100px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.index .slider img {
+	width: 779px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.my-app .layer-tips {
+	display: none;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.btn-act {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.btn-act-txt {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.ico-act-btn {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.banner-ad .life-ad-info {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-nav {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-nav .nav-item {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-nav .list-style {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-nav .table-style {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.app-section .app-info .app-info-shadow {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.img-sharow {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.apply-tools .app-btn {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.apply-tools .add-icon {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.apply-tools .share-icon {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-mblog .mblog-icon {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-mblog .shouting-btn {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.life-mblog .true-icon {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.action-info .action-icon {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.share-logo {
+	background: url("../images/index_v2_png24.png") no-repeat; _background: url(../images/index_v2_png8.png) no-repeat;
+}
+.index-v2 .banner-ad {
+	width: 816px; height: 208px; overflow: hidden; margin-bottom: 13px; position: relative;
+}
+.banner-ad .ad-play-left {
+	width: 54px; height: 54px; text-indent: -1000px; overflow: hidden; display: inline-block; position: absolute; cursor: pointer; opacity: 0.2;
+}
+.banner-ad .ad-play-right {
+	width: 54px; height: 54px; text-indent: -1000px; overflow: hidden; display: inline-block; position: absolute; cursor: pointer; opacity: 0.2;
+}
+.banner-ad .ad-play-left {
+	background: url("https://img.tenpay.com/v2/res/tenpay_v2/img/life/v2/index_v2_banner_left.png") no-repeat; left: 10px; top: 60px;
+}
+.banner-ad .ad-play-right {
+	background: url("https://img.tenpay.com/v2/res/tenpay_v2/img/life/v2/index_v2_banner_right.png") no-repeat; top: 60px; right: 10px;
+}
+.banner-ad .ad-play-left:hover {
+	opacity: 1;
+}
+.banner-ad .ad-play-right:hover {
+	opacity: 1;
+}
+.banner-ad .ad-play-left span {
+	width: 54px; height: 54px; display: block;
+}
+.banner-ad .ad-play-right span {
+	width: 54px; height: 54px; display: block;
+}
+.index-v2 .life-nav {
+	border-width: 1px; border-style: solid; border-color: rgb(239, 239, 239) rgb(230, 230, 230) rgb(220, 220, 220); width: 777px; height: 36px; position: relative; background-repeat: repeat-x;
+}
+.index-v2 .life-nav ul {
+	top: -1px; position: absolute;
+}
+.index-v2 .life-nav li {
+	height: 38px; line-height: 38px; float: left;
+}
+.index-v2 .life-nav li .nav-sep {
+	width: 1px; height: 12px; margin-top: 13px; float: left; background-color: rgb(204, 204, 204);
+}
+.index-v2 .life-nav li .nav-item {
+	background-position: 999px 0px; margin: 0px -1px; text-decoration: none; vertical-align: middle; float: left; position: relative; z-index: 1; cursor: pointer; _margin-top: 2px;
+}
+.index-v2 .life-nav li .nav-item .nav-item-content {
+	width: 91px; text-align: center; color: rgb(51, 51, 51); display: block;
+}
+.index-v2 .life-nav li .nav-item:hover span {
+	background-color: rgb(237, 237, 237);
+}
+.index-v2 .life-nav li .nav-item-current {
+	background-position: 0px -56px; height: 45px; z-index: 1;
+}
+.index-v2 .life-nav li .nav-item-current:hover span {
+	background-color: transparent;
+}
+.index-v2 .life-nav li .nav-item-current .nav-item-content {
+	color: rgb(255, 255, 255);
+}
+.index-v2 .life-nav .view-style {
+	top: 10px; right: 13px; position: absolute;
+}
+.index-v2 .life-nav .view-style span {
+	width: 20px; height: 18px; vertical-align: middle; display: inline-block; cursor: pointer;
+}
+.index-v2 .life-nav .view-style span:hover {
+	outline: rgb(164, 225, 255) solid 1px;
+}
+.index-v2 .life-nav .view-style .list-style {
+	background-position: -92px -56px; margin-right: 7px;
+}
+.index-v2 .life-nav .view-style .table-style {
+	background-position: -113px -56px;
+}
+.index-v2 .life-more {
+	height: 38px; line-height: 38px; padding-right: 10px; margin-right: 10px; float: right; cursor: pointer;
+}
+.index-v2 .life-more .ico-arrow-right {
+	top: 15px; right: 10px; position: absolute; cursor: pointer;
+}
+.index-v2 .life-app-wrap {
+	width: 779px; margin-top: 10px; position: relative; z-index: 100;
+}
+.index-v2 .life-app-wrap .life-app-area {
+	top: 0px; width: 556px; float: left; position: relative;
+}
+.index-v2 .life-app-wrap .life-other-area {
+	width: 219px; overflow: hidden; float: right;
+}
+.index-v2 .no-class .life-app-area {
+	top: 0px;
+}
+.app-section {
+	width: 555px;height:431px;
+}
+.app-section .app_list {
+	height:424px;
+}
+.index-v2 .life-app-wrap .loading .loading-wrap {
+	padding: 40px 0px; text-align: center; display: block;
+}
+.app-section h3 {
+	color: rgb(102, 102, 102); padding-left: 13px; font-size: 12px; font-weight: normal; margin-bottom: 11px;
+}
+.app-section .app-info {
+	margin-bottom: 5px; cursor: pointer;
+}
+.app-section .app-info .app-info-content {
+	border-width: 1px; border-style: solid; border-color: rgb(217, 217, 217) rgb(210, 210, 210) rgb(210, 210, 210); padding: 21px 27px 1px; width: 500px; height: 75px; overflow: hidden; background-color: rgb(255, 255, 255);
+}
+.app-section .app-info .app-info-content:hover {
+	padding: 20px 26px 0px; border: 2px solid rgb(135, 211, 255); background-color: rgb(250, 253, 255);
+}
+.app-section .app-info .hover {
+	padding: 20px 26px 0px; border: 2px solid rgb(135, 211, 255); background-color: rgb(250, 253, 255);
+}
+.app-section .app-info .img-info {
+	width: 500px; float: left;
+}
+.app-section .app-info .app-info-content .action-info {
+	color: rgb(204, 102, 51); font-family: ����; margin-top: -3px; _margin-top: 0px;
+}
+.app-section .app-info .action-info .action-icon {
+	background-position: -344px -56px; width: 30px; height: 14px; color: rgb(255, 255, 255); line-height: 15px; padding-left: 2px; margin-right: 4px; vertical-align: middle; display: inline-block;
+}
+.app-section .app-info .action-info a {
+	vertical-align: middle; _zoom: 1; _vertical-align: baseline;
+}
+.app-section .app-info .apply-app {
+	width: 234px; overflow: hidden; float: left;
+}
+.app-section .app-info .share-layer {
+	margin: 1px 0px 0px 139px; border: 1px solid rgb(179, 179, 179); text-align: left; position: absolute; background-color: rgb(255, 255, 255);
+}
+.app-section .app-info .share-layer li {
+	padding: 4px 10px; cursor: pointer;
+}
+.app-section .app-info .share-layer li a {
+	text-decoration: none;
+}
+.app-section .app-info .share-layer li:hover {
+	background-color: rgb(238, 237, 237);
+}
+.app-section .app-info .share-layer .hover {
+	background-color: rgb(238, 237, 237);
+}
+.app-section .app-info .share-logo {
+	width: 16px; height: 16px; margin-right: 9px; vertical-align: middle; display: inline-block;
+}
+.app-section .app-info .qqmblog {
+	background-position: -426px -55px;
+}
+.app-section .app-info .qqzone {
+	background-position: -409px -55px;
+}
+.app-section .app-info .sinamblog {
+	background-position: -392px -55px;
+}
+.app-section .app-info .qqfriend {
+	background-position: -376px -55px;
+}
+.app-section .app-info .img-info .img-link {
+	width: 48px; margin-right: 18px;
+}
+.app-section .app-info .img-info img {
+	width: 48px; height: 48px; overflow: hidden;
+}
+.app-section .app-info .img-info .img-sharow {
+	background-position: -134px -56px; width: 48px; height: 10px; margin-top: 1px; display: block;
+}
+.app-section .app-info .img-info dt {
+	font-size: 14px; margin-bottom: 4px;
+}
+.app-section .app-info .img-info dd {
+	color: rgb(153, 153, 153); margin-top: 5px; _margin-top: 0;
+}
+.app-section .app-info .app-info-shadow {
+	background-position: 0px -101px; height: 4px; line-height: 0; font-size: 0px; display: block;
+}
+.app-section .apply-app p {
+	text-align: right; color: rgb(153, 153, 153); margin-top: 4px; _margin-top: 3px;
+}
+.app-section .apply-app p .person-num {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.app-section .apply-app p .apply-sep {
+	color: rgb(230, 230, 230);
+}
+.app-section .apply-app .apply-tools {
+	height: 22px; text-align: right; color: rgb(153, 153, 153); line-height: 22px; margin-top: 4px; _margin-top: 6px;
+}
+.app-section .apply-app .app-btn {
+	background-position: 999px 0px; width: 57px; height: 22px; text-align: left; color: rgb(102, 102, 102); line-height: 22px; text-decoration: none; display: inline-block; cursor: pointer;
+}
+.app-section .apply-app .app-btn:hover {
+	background-position: -183px -55px; width: 57px; height: 22px;
+}
+.app-section .apply-app .app-btn .btn-text {
+	margin-top: 2px; vertical-align: middle; display: inline-block; _margin-top: 0;
+}
+.app-section .apply-app .add-icon {
+	background-position: -241px -56px; margin: 0px 7px; width: 10px; height: 21px; vertical-align: middle; display: inline-block;
+}
+.app-section .apply-app .share-icon {
+	background-position: -252px -56px; margin: 0px 4px 0px 7px; width: 16px; height: 21px; vertical-align: middle; display: inline-block;
+}
+.app-section .apply-app .apply-tools .app-status-added {
+	color: rgb(102, 102, 102); margin-top: 3px; margin-right: 9px; vertical-align: top; display: none; _margin-top: 0px;
+}
+@media not all, not all
+{
+.app-section .apply-app .apply-tools .app-status-added {
+	margin-top: 0px;
+}
+}
+.app-section .apply-app .app-added .add-btn {
+	display: none;
+}
+.app-section .apply-app .app-added .app-status-added {
+	display: inline-block;
+}
+.life-app-more {
+	width: 591px; overflow: hidden; padding-top: 23px;
+}
+.life-app-more .more-link {
+	padding-right: 21px; float: right;
+}
+.life-app-more .img-group {
+	margin-right: -1000px;
+}
+.life-app-more .img-group .img-link {
+	margin: 0px 2px 0px 0px; width: 72px;
+}
+.life-app-more .img-group .img-link img {
+	float: none;
+}
+.life-app-more .img-group .img-link span {
+	width: 72px; overflow: hidden; display: block;
+}
+.life-other-section .part {
+	border: 1px solid rgb(225, 226, 226); width: 211px; overflow: hidden; margin-bottom: 12px;
+}
+.life-other-section .img-link {
+	width: 100%; height: 100%; display: block;
+}
+.slide-section-head {
+	height: 20px; overflow: hidden; margin-bottom: 6px;
+}
+.slide-section-head .title {
+	float: left;
+}
+.slide-section-head .title .lab {
+	width: 36px; height: 20px; text-align: center; color: rgb(255, 255, 255); overflow: hidden; padding-top: 2px; font-weight: normal; display: inline-block; _padding-top: 0;
+}
+.slide-section-head .title .lab-b {
+	background-color: rgb(7, 138, 206);
+}
+.slide-section-head .title .lab-g {
+	background-color: rgb(191, 192, 192);
+}
+.slide-section-head .link {
+	padding-top: 2px; float: right; _padding-top: 0;
+}
+.slide-section .part {
+	height: 194px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; position: relative;
+}
+.slide-section .part ul {
+	height: 194px; overflow: hidden;
+}
+.slide-section .part li {
+	width: 211px; float: left;
+}
+.slide-section .slide-ctrl {
+	top: 8px; right: 10px; position: absolute;
+}
+.slide-section .slide-ctrl a {
+	width: 9px; height: 9px; text-indent: -1000px; overflow: hidden; margin-left: 8px; float: left; background-color: rgb(225, 226, 226);
+}
+.slide-section .slide-ctrl a:hover {
+	background-color: rgb(249, 136, 0);
+}
+.slide-section .slide-ctrl a.on {
+	background-color: rgb(249, 136, 0);
+}
+.slide-section .img-link {
+	height: 162px; overflow: hidden;
+}
+.slide-section .img-link img {
+	float: left;
+}
+.slide-section .desc {
+	font-family: "΢���ź�";
+}
+.slide-section .desc-detail {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(225, 226, 226); width: 211px; height: 30px; background-color: rgb(245, 245, 245);
+}
+.slide-section .desc-flag {
+	margin: -1px 0px; border: 1px solid rgb(222, 105, 27); width: 29px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 15px; font-weight: bold; float: left; background-color: rgb(255, 114, 0); _position: relative;
+}
+.slide-section .desc-info {
+	color: rgb(204, 0, 0); line-height: 30px; font-size: 17px; margin-left: 10px; float: left; text-shadow: 1px 1px 0px #ffffff;
+}
+.slide-section .desc-other {
+	color: rgb(135, 135, 135); line-height: 30px; font-size: 13px; margin-right: 8px; float: right; text-shadow: 1px 1px 0px #ffffff;
+}
+.slide-section .desc-btn {
+	width: 211px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; text-decoration: none; display: none; text-shadow: 1px 1px 0px #db6200; background-color: rgb(255, 114, 0);
+}
+.slide-section .desc:hover .desc-detail {
+	display: none;
+}
+.slide-section .desc-hover-ie6 .desc-detail {
+	display: none;
+}
+.slide-section .desc:hover .desc-btn {
+	display: block;
+}
+.slide-section .desc-hover-ie6 .desc-btn {
+	display: block;
+}
+.thea-section .part {
+	height: 125px;
+}
+.jhms-section {
+	border: 1px solid rgb(225, 226, 226); line-height: 1; margin-bottom: 12px;
+}
+.ico-act-btn {
+	background-position: -93px -76px; width: 18px; height: 18px; overflow: hidden; display: inline-block;
+}
+.btn-act {
+	height: 32px; line-height: 32px; overflow: hidden; display: inline-block; cursor: pointer;
+}
+.btn-act-txt {
+	height: 32px; line-height: 32px; overflow: hidden; display: inline-block; cursor: pointer;
+}
+.btn-act {
+	background-position: -378px -106px; color: rgb(51, 102, 153); padding-left: 10px;
+}
+.btn-act-txt {
+	background-position: right -106px; padding-right: 10px;
+}
+.btn-act .ico-act-btn {
+	margin: 8px 6px 0px 0px; float: left;
+}
+.btn-act:hover {
+	background-position: -378px -139px;
+}
+.btn-act:hover .btn-act-txt {
+	background-position: right -139px; color: rgb(0, 120, 182);
+}
+.btn-act:hover .ico-act-btn {
+	background-position: -112px -76px;
+}
+.action-section .part {
+	height: 101px; position: relative;
+}
+.action-section .act-img {
+	
+}
+.action-section .btn-act {
+	left: 112px; top: 52px; position: absolute;
+}
+.promotion-section .part {
+	height: 218px;
+}
+.index-v2 .life-mblog {
+	margin: 24px 0px 30px;
+}
+.index-v2 .life-mblog-info {
+	padding: 0px 12px 4px 0px; border-bottom-color: rgb(172, 172, 172); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.index-v2 .life-mblog-info p {
+	line-height: 25px;
+}
+.index-v2 .life-mblog-info .mblog-icon {
+	background-position: -269px -56px; width: 9px; height: 14px; margin-right: 7px; vertical-align: middle; display: inline-block;
+}
+.index-v2 .life-mblog-info .life-mblog-title {
+	width: 76px; float: left;
+}
+.index-v2 .life-mblog-info .shouting-btn {
+	background-position: -293px -56px; width: 51px; height: 18px; margin-top: 3px; vertical-align: middle; float: right; display: inline-block; cursor: pointer; _margin-top: 0px;
+}
+.index-v2 .life-mblog-info .life-name {
+	width: 78px; float: left;
+}
+.index-v2 .life-mblog-info .mblog-num {
+	color: rgb(105, 105, 105); float: right;
+}
+.index-v2 .life-mblog-info .mblog-num span {
+	color: rgb(142, 142, 142);
+}
+.index-v2 .life-mblog-lists {
+	overflow: hidden;
+}
+.index-v2 .life-mblog-lists .true-icon {
+	background-position: -279px -56px; width: 13px; height: 13px; vertical-align: middle; display: inline-block;
+}
+.index-v2 .life-mblog-lists .life-mblog-content {
+	padding: 10px 0px 6px; margin-bottom: -1px; border-bottom-color: rgb(172, 172, 172); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.index-v2 .life-mblog-lists .username {
+	color: rgb(153, 153, 153); margin-bottom: 10px;
+}
+.index-v2 .life-mblog-lists p {
+	color: rgb(102, 102, 102);
+}
+
+div.index .promotionProduct {
+	width: 217px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border-left: solid 1px #e4e4e4;
+	border-right: solid 1px #e4e4e4;
+	border-bottom: solid 1px #e4e4e4;
+}
+
+div.index .promotionProduct .tab {
+        margin-top:0px;
+	width: 220px;
+	height: 31px;
+}
+
+div.index .promotionProduct .tab li {
+	width: 108px;
+	height: 31px;
+	line-height: 31px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	border-right: solid 1px #e4e4e4;
+	background: url(../images/index.gif) 0px -90px repeat-x;
+}
+
+div.index .promotionProduct .tab li.current {
+	height: 29px;
+	line-height: 29px;
+	border-top: solid 1px #ff830f;
+	background-color: #ffffff;
+	background-image: none;
+}
+
+div.index .promotionProduct .tabContent {
+	padding: 3px;
+}
+
+div.index .promotionProduct .tabContent li {
+	height: 94px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+div.index .promotionProduct .tabContent li.last {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+div.index .promotionProduct .tabContent .info {
+	line-height: 26px;
+	color: #a5a5a5;
+}
+
+div.index .promotionProduct .tabContent em {
+	color: #404040;
+	font-weight: bold;
+	font-style: normal;
+}
+
+div.index .promotionProduct .tabContent del {
+	color: #a5a5a5;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: line-through;
+}
+
+div.index .promotionProduct .tabContent strong {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.index .promotionProduct .tabContent span {
+	display: block;
+	clear: both;
+}
+
+div.index .promotionProduct .tabContent div img {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	padding: 2px;
+	margin: 4px 4px 0px 0px;
+	border: 1px solid #e4e4e4;
+}
+
+div.index .promotionProduct .tabContent div div {
+	width: 148px;
+	line-height: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+
+div.index .ranking {
+	width: 217px;
+	height: 290px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: solid 1px #e4e4e4;
+}
+
+div.index .ranking .tab {
+        margin-top:0px;
+	width: 217px;
+	height: 30px;
+	background-color: #f1f1f1;
+	border-right: solid 0px #e4e4e4;
+}
+
+div.index .ranking .tab li {
+	width: 71px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	border-right: solid 1px #e4e4e4;
+}
+
+div.index .ranking .tab li.current {
+	background-color: #ffffff;
+}
+
+div.index .ranking .tabContent {
+	padding: 3px;
+}
+
+div.index .ranking .tabContent li {
+	line-height: 26px;
+}
+
+
+div.index .ranking .tabContent li .pmTable{ font-size:12px; border:1px solid #95999B; text-align:center; width:100%; margin-top:0px;font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei"; }
+div.index .ranking .tabContent li .pmTable tr td{ border:1px solid #95999B; height:22px; line-height:22px;font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei"; }
+
+
+div.index .customer {
+	width: 217px;
+	height: 172px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: solid 1px #e4e4e4;
+}
+
+div.index .customer .tab {
+        margin-top:0px;
+	width: 217px;
+	height: 30px;
+	background-color: #f1f1f1;
+	border-right: solid 0px #e4e4e4;
+}
+
+div.index .customer .tab li {
+	width: 107.5px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	border-right: solid 1px #e4e4e4;
+}
+
+div.index .customer .tab li.current {
+	background-color: #ffffff;
+}
+
+div.index .customer .tabContent {
+	padding: 3px;
+}
+
+div.index .customer .tabContent li {
+	line-height: 26px;
+}
+
+div.index .customer .tabContent li span {
+	float: right;
+        margin-right:5px;
+}
+
+div.index .anlyChart {
+	padding: 0px 5px 5px 5px;
+	background-color: #f1f1f1;
+}
+
+div.index .anlyChart .title {
+	height: 30px;
+	line-height: 30px;
+	color: #cacaca;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+
+div.index .anlyChart .title strong {
+	margin-right: 10px;
+	color: #d31c31;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.index .anlyChart .title a {
+	float: right;
+	color: #999999;
+	font-weight: normal;
+}
+
+div.index .anlyChart .flashChart {
+	border: 1px solid #e4e4e4;
+	background-color: #ffffff;
+}
+
+
+.mainnav-link .nav-account {
+	color: rgb(255, 143, 0); text-decoration: none; border-bottom-color: rgb(255, 143, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.mainnav-link .nav-account .alt-bg {
+	background-position: -257px 0px;
+}
+

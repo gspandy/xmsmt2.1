@@ -1,0 +1,396 @@
+﻿    /*字体大小*/
+.f-s12 {
+    font-size:12px;
+}
+.f-s14 {
+    font-size:14px;
+}
+.f-s15 {
+    font-size:15px;
+}
+.f-s16 {
+    font-size:16px;
+}
+
+.Boot {
+    width:850px;
+    margin:0 auto;
+    background:#fff;
+}
+
+.gBox {
+    position:absolute;
+    top:50%;
+    margin-top:-315px;
+    padding:20px 0 40px;
+}
+/*头部*/
+.gBox .header {
+    width:840px;
+    height:51px;
+    padding:0 5px;
+    margin-bottom:5px;
+    position:relative;
+}    
+
+.gBox .header #logo{
+    width:233px;
+    height:51px;
+    margin-top:0;
+}
+.city-info{
+    width:auto;
+    margin:10px 0 0 20px;
+    position:relative;
+}
+.city-info .city-info__name{
+    font-size:16px;
+}
+.city-info .city-info__toggle{
+    color:#048017;
+}
+    /*切换城市*/
+.city-info .city-all{
+    display:none;
+    width:165px;
+    height:150px;
+    padding:10px;
+    border:solid 2px #ccc;
+    border-radius:5px;
+    background:#fff;
+    position:absolute;
+    top:36px;
+    left:15px;
+    z-index:9;
+}
+.city-info .city-all a{
+    display:inline-block;
+    font-size:14px;
+    margin:0 5px 5px;
+}
+.city-info .city-all a:hover{
+    color:#048017;
+}
+
+.weather {
+    /*width:168px;*/
+    width:100px;
+    height:40px;
+    position:relative;
+    overflow:hidden;
+}
+
+.weather .w_ico {
+    display:inline-block;
+    width:51px;
+    height:34px;
+    margin:0 5px 0 10px;
+    background:url(../images/weather_ico.png) no-repeat 0 0;
+}
+.weather .w_T {
+    /*display:inline-block;*/
+    float:left;
+    text-align:center;
+}
+.weather .w_T #ifm2{
+    position:absolute;
+    top:-25px;
+}
+.header .btn {
+    position:absolute;
+    right:10px; 
+    bottom:0;
+    font-size:14px;
+    color:#2f2f2e;
+    font-weight:bold;
+}
+.header .btn a{
+    color:#2f2f2e;
+}
+.header .btn b{
+    margin:0 5px;
+}
+/*内容*/
+.gBox .main {
+    padding:0 5px 10px;
+    border-bottom:solid 1px #e7e7e6;
+
+    position:relative;
+    z-index:1;
+}
+.gBox .main a:hover{
+    text-decoration:underline;
+}
+.gBox .main li{
+    height:130px;
+    margin-bottom:6px;
+    overflow:hidden;
+}
+.gBox .main .co_box{
+    float:left;
+    width:119px;
+    height:118px;
+    padding:12px 0 0 15px;
+    margin:0 3px;
+}
+.gBox .main h2{
+    display:inline-block;
+    font-size:16px; 
+    color:#fbfbfd;
+    font-weight:bold;
+}
+    /*新闻*/
+.gBox .main .news{
+    width:262px;
+    height:95px;
+    padding:17px 0 18px 6px;
+    margin:0 3px;
+    overflow:hidden;
+}
+.gBox .main .news_list{
+    float:left;
+    margin:0 3px;
+}
+.gBox .main .news .lBox{
+    float:left;
+}
+.gBox .main .news .lBox img{
+    width:103px;
+    height:95px;
+}
+.gBox .main .news .rBox{
+    float:right;
+    width:150px;
+    margin-right:6px;
+}
+.gBox .main .news .rBox a{
+    display:block;
+    width:150px;
+    font-size:12px;
+    color:#fff;
+    margin-bottom:4px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+    /*入口*/
+.gBox .main div.co_box{
+    float:left;
+    width:134px;
+    padding:0;
+}
+.gBox .main div.co_box a{
+    display:block;
+    width:84px;
+    height:62px;
+    line-height:62px;
+    padding-left:50px;
+}
+.gBox .main div.co_box a.ent1{
+    margin-bottom:6px;
+    background:url(../images/g_ico2.png) no-repeat 0 0 #2d89f0;
+}
+.gBox .main div.co_box a.ent2{
+    background:url(../images/g_ico2.png) no-repeat 0 -71px #2d89f0;
+}
+    /*二维码*/
+.gBox .main .two_code {
+    float:left;
+    width:274px;
+    height:130px;
+    margin:0 3px;
+    background:url(../images/two-code.jpg) no-repeat;
+    position:relative;
+}
+.gBox .main .two_code a.android{
+    width:78px;
+    height:29px;
+    position:absolute;
+    left:36px;
+    top:96px;
+}
+.gBox .main .two_code a.iphone{
+    width:78px;
+    height:29px;
+    position:absolute;
+    right:32px;
+    top:96px;
+}
+    /*家政服务*/
+.houseServe {
+    float:left;
+    width:259px;
+    height:118px;
+    padding:12px 0 0 15px;
+    margin:0 3px;
+}
+.houseServe a.lBox{
+    float:left;
+    width:110px;
+    height:105px;
+}
+.houseServe .hServers{
+    float:right;
+    width:136px;
+    height:100px;
+    margin:5px 10px 0 0;
+    position:relative;
+}
+.houseServe .hServers a{
+    color:#fff;
+    font-weight:bold;
+    position:absolute;
+}
+.houseServe .hServers a.i_1{
+    top:0;
+    left:30px;
+}
+.houseServe .hServers a.i_2{
+    top:5px;
+    left:70px;
+}
+.houseServe .hServers a.i_3{
+    top:30px;
+    left:6px;
+}
+.houseServe .hServers a.i_4{
+    top:27px;
+    left:40px;
+}
+.houseServe .hServers a.i_5{
+    top:32px;
+    right:0px;
+}
+.houseServe .hServers a.i_6{
+    top:55px;
+    left:0px;
+}
+.houseServe .hServers a.i_7{
+    top:57px;
+    left:85px;
+}
+.houseServe .hServers a.i_8{
+    top:82px;
+    left:38px;
+}
+    /*广告图片*/
+.gBox .main .ad {
+    float:left;
+    margin:0 3px;
+}
+.gBox .main .ad img{
+    width:274px;
+    height:130px;
+}
+    /*推荐*/
+.gBox .main .recommend {
+    float:left;
+    width:274px;
+    height:130px;
+    margin:0 3px;
+}
+.gBox .main .recommend .lBox{
+    float:left;
+    width:133px;
+    height:130px;
+    position:relative;
+}
+.gBox .main .recommend .rBox{
+    float:right;
+    width:117px;
+    height:100px;
+    margin:15px 12px;
+    color:#fff;
+}
+.gBox .main .recommend .rBox p{
+    display:inline;
+    line-height:20px;
+}
+.gBox .main .recommend .rBox a{
+    color:#fff;
+    font-weight:bold;
+}
+    /*图标*/
+.gBox .main .g_ico_01{
+    background:url(../images/g_ico.png) no-repeat 0 0 #2d89f0;
+}
+.gBox .main .g_ico_02{
+    background:url(../images/g_ico.png) no-repeat 0 -140px #67b11c;
+}
+.gBox .main .g_ico_03{
+    background:url(../images/g_ico.png) no-repeat 0 -280px #2d89f0;
+}
+.gBox .main .g_ico_04{
+    background:url(../images/g_ico.png) no-repeat 0 -420px #5e3bb9;
+}
+.gBox .main .g_ico_05{
+    background:url(../images/g_ico.png) no-repeat 0 -560px #2d89f0;
+}
+.gBox .main .g_ico_06{
+    background:url(../images/g_ico.png) no-repeat 0 -700px #008e16;
+}
+.gBox .main .g_ico_07{
+    background:url(../images/g_ico.png) no-repeat 0 -840px #dd532e;
+}
+.gBox .main .g_ico_08{
+    background:url(../images/g_ico.png) no-repeat 0 -980px #dd532e;
+}
+.gBox .main .g_ico_09{
+    background:url(../images/g_ico.png) no-repeat 0 -1120px #dd532e;
+}
+.gBox .main .g_ico_10{
+    background:url(../images/g_ico.png) no-repeat 0 -1260px #008e16;
+}
+.gBox .main .g_ico_11{
+    background:url(../images/g_ico.png) no-repeat 0 -1400px #008e16;
+}
+.gBox .main .g_ico_12{
+    background:url(../images/g_ico.png) no-repeat 0 -1540px #5e3bb9;
+}
+.gBox .main .g_ico_13{
+    background:url(../images/g_ico.png) no-repeat 0 -1680px #67b11c;
+}
+.gBox .main .g_ico_14{
+    background:url(../images/g_ico.png) no-repeat 0 -1820px #2d89f0;
+}
+    /*背景颜色*/
+    /*蓝*/
+.co_01{
+    background-color:#2d89f0;
+}
+    /*浅绿*/
+.co_02{
+    background-color:#67b11c;
+}
+    /*紫*/
+.co_03{
+    background-color:#5e3bb9;
+}
+    /*绿*/
+.co_04{
+    background-color:#008e16;
+}
+    /*红*/
+.co_05{
+    background-color:#dd532e;
+}
+    /*图标悬浮效果*/
+.xf {
+}
+.xf:hover {
+    filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+/*备案号*/
+.recordNum {
+    text-align:center;
+    font-size:16px;
+    margin-top:10px;
+}
+
+
+
+

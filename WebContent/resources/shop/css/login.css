@@ -1,0 +1,518 @@
+﻿@charset "utf-8";
+
+/*
+ * Copyright 2005-2013 rsico. All rights reserved.
+ * Support: http://www.wit.net
+ * License: http://www.wit.net/license
+ * 
+ * Style - Login
+ * Version: 3.0
+ */
+
+/* ---------- Login ---------- */
+#w950{
+  width:995px;
+	MARGIN: 0px auto;
+	padding:5px;
+	}
+.h_banner {
+  clear:both;
+	position:relative;
+	margin:0 auto;
+	height:400px;
+	overflow:hidden;
+	z-index:1;
+	background:#FFF; 
+	}
+
+	
+.h_banner_imgs{
+	position:relative;
+	width:100%;
+	height:400px;
+	}
+
+.h_banner_imgs li {
+	float:left;
+    position:absolute;
+	top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background:#f00;
+    background-repeat:no-repeat;
+    background-position:center center !important;
+	}
+
+.h_banner_imgs img {
+	border: solid 0px;
+	}
+
+.h_banner_imgs a{
+    border: solid 0px;
+	}
+
+.h_banner_txt{
+	width:950px;
+	height:0;
+	margin:0 auto;
+	position:relative;
+	z-index:999
+	}
+
+.h_banner .num {
+    position: absolute;
+    bottom: 0px;
+    left: 385px;
+    z-index: 10;
+    list-style: none;
+    width: 250px;
+	height: 25px;
+    text-align: center;
+    line-height:25px;
+    padding-left:80px;
+	}
+
+.h_banner .num li {
+
+	line-height:25px;
+
+    background: url("../images/gw_hy1.png") no-repeat;
+
+    width: 25px;
+
+    height: 25px;
+
+    display: inline-block;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    float:left;
+
+    
+
+}
+
+.h_banner .num li.curr {
+
+	line-height:25px;
+
+    background: url("../images/gw_hy2.png") no-repeat;
+
+    width: 25px;
+
+    height: 25px;
+
+    display: inline-block;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    
+
+}
+
+.login-box{
+	height:0;
+	margin:0 auto;
+	position:relative;
+	top:20px;
+	width:950px;
+	z-index:10;
+}
+	
+.login-box-main{
+	position:absolute; 
+	width:280px; 
+	height:315px; 
+	top:30px; 
+	right:0; 
+	background:#fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 2px 4px 4px rgba(0,0,0,.1);
+}
+
+.login-tab{
+	width:280px;
+	height:40px;
+	position:absolute; 
+	z-index:11;
+	top:15px;
+	right:0;
+}
+
+.login-tab li{
+	float:left;
+	background:#3fc700;
+	list-style-type: none;
+	}
+
+.login-tab li.curr{
+	float: left;
+background: #c4251c;
+border: 5px solid #c4251c;
+border-radius: 4px;
+margin: 0 0 0 -5px;
+border-top: 1px solid rgba(255,255,255,.8);
+border-bottom:0;
+	}
+
+.login-tab li a{
+	display:block;
+	width:280px;
+	height:40px; 
+	line-height:40px;
+	text-align:center;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration:none;
+	}
+
+.login-tab li a:hover{
+	text-decoration:none;
+	}
+	
+.login-tab-box{
+	width:280px;
+	height:280px;
+	position:absolute; 
+	z-index:12;
+	top:50px;
+	right:0;
+	padding-top:10px;
+	}
+
+.login_right{
+	width:250px;
+	height:285px;
+	padding:0 15px;
+	color:#FFFFFF;
+	overflow:hidden;
+	position:absolute;
+        margin-top:10px;
+	}
+
+.login_right li{
+	display:inline;
+	float:left;
+	width:250px;
+	margin-bottom:5px;
+	color:#666;
+	}
+
+.login_right li label{
+	float:left;
+	vertical-align: middle;
+	}
+
+.login_right li span{
+	float:right;
+	vertical-align: middle;
+	}
+
+.login_right li a{
+	color:#CCC;
+	vertical-align: middle;
+	}
+
+.bg .login_right li img{
+	vertical-align: middle;
+	}
+
+.login_right li .input1{
+	float:left;
+    font-size: 12px;
+    height: 30px;
+	line-height:30px;
+	padding:0 4px;
+    width:240px;
+	border:#afafaf 1px solid;
+	vertical-align: middle;
+	margin-bottom:3px;
+	}
+
+.login_right li .input2{
+ 	float:left;
+    font-size: 12px;
+    height: 30px;
+	line-height:30px;
+	padding:0 4px;
+    width:112px;
+	margin-right:0px;
+	border:#afafaf 1px solid;
+	vertical-align: middle;
+	margin-bottom:3px;
+	}
+.login_right li #captchaImage{
+	margin-top:2px;
+	}
+
+.login_right li .login{
+	float:left;
+	height:34px;
+	width:250px;
+	line-height:32px;
+	font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background:#c4251c;
+	border:#ffffff 1px solid;
+	margin-top:5px;
+	display:inline;
+	cursor:pointer;
+	border-radius:4px;
+	}
+
+.login_right li .login:hover{
+	background:rgba(916,37,28,0.95);
+	}
+
+.rememberUsername {
+    font-size:14px;
+	font-weight:bold;
+	color:#FF9900;}
+
+.register,.register a,.register a:link,.register a:visited{
+    font-size:14px;
+	font-weight:bold;
+	color:#FF9900;}
+	
+.register label{
+	margin-right: 10px;
+	font-weight:none;
+	padding-top:3px;
+        font-size:12px;
+	color:#666;}
+	
+
+
+.login_right2{
+	float:right;
+	width:248px;
+	height:320px;
+	color:#FFFFFF;
+	overflow:hidden;
+	}
+
+.login_right2 li{
+	display:inline;
+	float:left;
+	width:218px;
+	margin-bottom:10px;
+	}
+
+.login_right2 li.log_time{
+	font-size:14px;
+	font-weight:bold;
+	display:inline;
+	}
+
+.login_right2 li button.manage{
+	float:left;
+	height:34px;
+	width:216px;
+	line-height:32px;
+	font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	background:#FF9900;
+	margin:10px 0 20px 0;
+	display:inline;
+	cursor:pointer;
+	}
+
+.btn-white {
+	background: url("https://img.tenpay.com/v2/res/img/global/global_png24.png?v=20130731") no-repeat; overflow: hidden; display: inline-block; _background-image: url(https://img.tenpay.com/v2/res/img/global/global_png8.png?v=20130731);
+}
+.btn-white button {
+	background: url("https://img.tenpay.com/v2/res/img/global/global_png24.png?v=20130731") no-repeat; overflow: hidden; display: inline-block; _background-image: url(https://img.tenpay.com/v2/res/img/global/global_png8.png?v=20130731);
+}
+.btn-white span {
+	background: url("https://img.tenpay.com/v2/res/img/global/global_png24.png?v=20130731") no-repeat; overflow: hidden; display: inline-block; _background-image: url(https://img.tenpay.com/v2/res/img/global/global_png8.png?v=20130731);
+}
+
+.btn-white {
+	height: 32px; line-height: 0; overflow: hidden; padding-left: 2px; vertical-align: middle;
+}
+
+.btn-white:hover {
+	text-decoration: none;
+}
+
+.btn-white button {
+	padding: 0px 11px 0px 10px; border: currentColor; height: 100%; text-align: center; line-height: 32px; overflow: visible; font-size: 14px; font-weight: 700; vertical-align: top; white-space: nowrap; cursor: pointer;
+}
+
+.btn-white span {
+	padding: 0px 11px 0px 10px; border: currentColor; height: 100%; text-align: center; line-height: 32px; overflow: visible; font-size: 14px; font-weight: 700; vertical-align: top; white-space: nowrap; cursor: pointer;
+}
+.btn-white button {
+	padding-bottom: 3px; _padding-bottom: 0;
+}
+
+.btn-white {
+	background-position: -280px -116px;
+}
+.btn-white button {
+	background-position: right -116px; color: rgb(51, 102, 153);
+}
+.btn-white span {
+	background-position: right -116px; color: rgb(51, 102, 153);
+}
+[class].btn-white:hover {
+	background-position: -280px -174px;
+}
+[class].btn-white:hover button {
+	background-position: right -174px;
+}
+[class].btn-white:hover span {
+	background-position: right -174px;
+}
+
+.btn-white {
+	min-width: 63px;
+}
+.btn-white span {
+	min-width: 42px; _width: 42px;
+}
+.btn-white button {
+	min-width: 42px; _width: 63px;
+}
+
+.ico-fangan {
+	background: url("../images/intro_ico.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/intro_ico.png) no-repeat;
+}
+.ico-shoufukuan {
+	background: url("../images/intro_ico.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/intro_ico.png) no-repeat;
+}
+.ico-jiesuan {
+	background: url("../images/intro_ico.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/intro_ico.png) no-repeat;
+}
+.practice-mch {
+	margin: 8px 0px 0px; display: inline-block;margin-bottom:10px;
+}
+.practice-mch .pra-title {
+	width: 100%; height: 45px; color: rgb(51, 51, 51); line-height: 45px; font-family: "Microsoft YaHei","sans serif"; font-size: 15px; border-bottom-color: rgb(165, 177, 189); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.practice-mch .pra-intro {
+	background-position: 0px -78px; width: 100%; height: 237px; float: left;
+}
+.practice-mch .pra-intro-con {
+	width: 315px; height: 100%; float: left;
+}
+.practice-mch .pra-intro-con-spe {
+        float:right;
+	width: 300px;
+}
+.practice-mch .pra-intro-con-spe .fangan-a {
+	padding: 0px 22px 10px 0px; width: 72px; display: inline-block;
+}
+.practice-mch .pra-intro-con .ico-span {
+	margin: 20px 0px 0px 20px; width: 100%; float: left; display: inline-block;
+}
+.practice-mch .pra-intro-con h1 {
+	margin: 33px 0px 0px 16px; width: 210px; height: 18px; color: rgb(51, 51, 51); line-height: 24px; font-family: "Microsoft YaHei","sans serif"; font-size: 18px; font-weight: normal; float: left; display: inline-block;
+}
+.practice-mch .pra-intro-con .h1-spe {
+	width: 210px;
+}
+.practice-mch .pra-intro-con .con-tips {
+	margin: 22px 0px 0px 16px; width: 210px; float: left; display: inline-block; _margin: 16px 0 0 16px;
+}
+.practice-mch .pra-intro-con .con-tips-other {
+	margin: 10px 0px 0px 99px; width: 210px; float: left; display: inline-block; _margin: 10px 0 0 49px;
+}
+.practice-mch .pra-intro-con h2 {
+	color: rgb(51, 51, 51); font-family: SimSun,"sans serif"; font-size: 12px; font-weight: normal; float: left;
+}
+.practice-mch .pra-intro-con p {
+	padding: 0px 0px 0px 10px; width: 158px; color: rgb(153, 153, 153); font-family: SimSun,"sans serif"; font-size: 12px; display: inline-block;
+}
+.practice-mch .pra-intro-con .con-btn {
+	margin: 14px 0px 0px 98px; float: left;
+}
+.practice-mch .pra-intro-con .con-btn span {
+	width: 71px; font-weight: normal;
+}
+.practice-mch .pra-intro-con .con-btn-sfk {
+	margin: 22px 0px 0px 98px; float: left;
+}
+.practice-mch .pra-intro-con .con-btn-fangan {
+	margin: 22px 0px 0px 90px; float: left; _margin: 15px 0 0 90px;
+}
+.practice-mch .pra-intro-con .ico-jiesuan {
+	background-position: -29px -4px; width: 62px; height: 57px;
+}
+.practice-mch .pra-intro-con .ico-shoufukuan {
+	background-position: -99px -4px; width: 62px; height: 55px;
+}
+.practice-mch .pra-intro-con .ico-fangan {
+	background-position: -166px -3px; width: 62px; height: 52px;
+}
+
+.practice-mch .pra-intro-con .ico-jiesuan-intro {
+	background-position: -245px -94px; width: 62px; height: 57px;
+}
+.practice-mch .pra-intro-con .ico-shoufukuan-intro {
+	background-position: -301px -94px; width: 62px; height: 55px;
+}
+.practice-mch .pra-intro-con .ico-fangan-intro {
+	background-position: -357px -94px; width: 62px; height: 52px;
+}
+
+.login_right2 li button.manage:hover{
+	background:#ffa201;
+	}
+div.login {
+  width:960px;
+}
+div.login .friendLink {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	background-color: #c5c5c5;
+}
+
+div.login .friendLink dt {
+	float: left;
+	padding: 0px 30px;
+	background-color: #6e6e6e;
+}
+
+div.login .friendLink dd {
+	float: left;
+}
+
+div.login .friendLink a {
+	margin: 0px 10px;
+	color: #ffffff;
+}
+
+div.login .friendLink .more {
+	float: right;
+	background-color: #6e6e6e;
+}
+.login_container{width: 100%;}
+.login_main{width:1200px;margin:0 auto;padding:15px 0;}
+.login_main .product-item{width:33.3%;height:auto;float:left;}
+.login_main .product-item h1{font-size:20px;font-weight:bold;line-height:40px;color:#333;}
+.login_main .product-item p a{padding:0 2px;line-height:20px;color:#666;}
+.login_main .product-item p a:hover{color:#c4251c}
+.login_main #safety{_margin-right:43px;}
+.login_main #safety .follow_wrapper{float:left;height:22px;margin-top:-3px;margin-top:-2px\0;margin-top:-3px\9\0;*margin-top:-4px;}.footer{width:100%;background-color:#ededed;}
+.login_h10{width:100%;height:10px;}
+.loginpd{padding:0 70px 30px 70px;position:relative;}
+.loginpd a.more{color:#c4251c;font-size:10px;position:absolute;bottom:10px;right:10px;}
+.loginpd a.more:hover{text-decoration: underline}
+.login_poto{width:150px;height:150px;margin:0 auto;}
+.login_boxshow{box-shadow: 1px 2px 4px rgba(0,0,0,.1);}

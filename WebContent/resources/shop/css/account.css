@@ -1,0 +1,246 @@
+/* tab */
+.dark-gray {
+	color: rgb(102, 102, 102);
+}
+a.dark-gray:hover {
+	color: rgb(0, 120, 182);
+}
+.tab {
+	-ms-zoom: 1;
+	margin-top: 10px; position: relative;
+}
+.tab-title {
+	-ms-zoom: 1;
+	padding-right: 10px;
+}
+.tab-title ul::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.tab-title ul {
+	-ms-zoom: 1;
+}
+.tab-title li {
+	width: auto; float: left; display: inline;
+}
+.tab-title li a {
+	width: auto; float: left; display: inline;
+}
+.tab-title li span {
+	width: auto; float: left; display: inline;
+}
+.tab-title li {
+	 margin-right: 4px;
+}
+.tab-title li a {
+	height: 1.5em; line-height: 1.5em;
+}
+.tab-title li a {
+	text-align: center; padding-right: 10px;
+}
+.tab-title li a:hover {
+	text-decoration: none;
+}
+.tab-title li span {
+	padding-left: 10px; cursor: pointer;
+}
+.tab-title li.on {
+	padding-bottom: 1px; margin-bottom: -1px; position: relative; background-color: rgb(255, 255, 255);
+}
+.tab-title li.on a {
+	cursor: default;
+}
+.tab-title li.on span {
+	cursor: default;
+}
+.tab-main {
+	 overflow: hidden;
+}
+.tab-content h2 {
+	left: -9999px; top: -9999px; position: absolute;
+}
+
+.btn-gray,.btn-gray button,.btn-gray span,
+.btn-gray-s, .btn-gray-s button, .btn-gray-s span, .btn-drop-s .btn-drop-s-ico,
+.safe-level-low, .safe-level-mid, .safe-level-high,
+.ico-auth, .ico-cert, .ico-mobile,
+.ico-fastpay-manage, .tab-ico-cft, .tab-ico-qq, .tab-ico-cb,
+.balance-content .pay-action-link{
+	background:url(../images/index.png) no-repeat;display:inline-block;overflow:hidden;
+}
+
+.btn-gray{background-position:-300px -50px;background-color:#F6F6F6;height:29px;line-height:0;padding-left:2px;overflow:hidden;vertical-align:middle;}
+.btn-gray:hover{text-decoration:none;}
+.btn-gray button, .btn-gray span{background:#c4251c;color:#fff;height:100%;line-height:30px\9;*line-height:29px;padding:0 11px 0 10px;border:none;cursor:pointer;font-size:14px;font-weight:700;overflow:visible;text-align:center;vertical-align:top;white-space:nowrap;}
+.btn-gray button:not(tid), .btn-gray span:not(tid){line-height:29px;}
+.btn-gray button{padding-bottom:3px;_padding-bottom:0;}
+.btn-gray:hover, .btn-gray-hover{background:tgbs(196,37,28,.8);}
+.btn-gray:hover button, .btn-gray:hover span,
+.btn-gray-hover button, .btn-gray-hover span{background:tgbs(255,37,28,.8);color:#fff;}
+.btn-gray{min-width:68px;}                                                         /* [最小宽度] for opera */
+.btn-gray span{min-width:47px;_width:47px;}                                        /* [最小宽度] others、ie6 */
+.btn-gray button{min-width:68px;min-width:47px\9;*min-width:68px;_width:68px;}     /* [最小宽度] others、ie8、ie7、ie6 */
+@-moz-document url-prefix(){.btn-gray button{padding:0 8px 3px 7px;}}              /* [最小宽度] ff hack */
+span.btn-gray:not(s), .btn-gray button:not(s), span.btn-white:not(s), .btn-white button:not(s), span.btn-disable:not(s), .btn-disable button:not(s){min-width:auto\9;} /* [最小宽度] ie9 */
+
+.btn-gray-s{background-position:-300px -139px;background-color:#EFF1F1;height:28px;line-height:0;padding-left:2px;overflow:hidden;vertical-align:middle;}
+.btn-gray-s:hover{text-decoration:none;}
+.btn-gray-s button, .btn-gray-s span{background-position:right -139px;color:#333333;height:100%;line-height:30px\9;_line-height:28px;padding:0 11px 0 10px;border:none;cursor:pointer;overflow:visible;text-align:center;vertical-align:top;white-space:nowrap;}
+.btn-gray-s button:not(tid), .btn-gray-s span:not(tid){line-height:26px;background:#FF8500;color:#fff}
+.btn-gray-s button{padding-bottom:3px;_padding-bottom:0;}
+.btn-gray-s:hover{background-position:-300px -110px;}
+.btn-gray-s:hover button, .btn-gray-s:hover span{color:#fff;}
+.btn-gray-s{min-width:50px;}                                                         /* [最小宽度] for opera */
+.btn-gray-s span{min-width:29px;_width:29px;}                                        /* [最小宽度] others、ie6 */
+.btn-gray-s button{min-width:68px;min-width:29px\9;*min-width:50px;_width:50px;}     /* [最小宽度] others、ie8、ie7、ie6 */
+@-moz-document url-prefix(){.btn-gray-s button{padding:0 8px 3px 7px;}}              /* [最小宽度] ff hack */
+span.btn-gray-s:not(s), .btn-gray-s button:not(s), span.btn-white:not(s), .btn-white button:not(s), span.btn-disable:not(s), .btn-disable button:not(s){min-width:auto\9;} /* [最小宽度] ie9 */
+
+/* 安全等级 */
+.safe-level .safe-level-low, .safe-level .safe-level-mid, .safe-level .safe-level-high{width:34px;padding-left:20px;height:17px;font:12px/16px \5b8b\4f53;_line-height:17px;}
+.safe-level .safe-level-low:hover, .safe-level .safe-level-mid:hover, .safe-level .safe-level-high:hover{text-decoration:none;}
+.safe-level .safe-level-low, .safe-level .safe-level-low:hover{background-position:-124px 0;color:#D98158;}
+.safe-level .safe-level-mid, .safe-level .safe-level-mid:hover{background-position:-179px 0;color:#3FA6EF;}
+.safe-level .safe-level-high, .safe-level .safe-level-high:hover{background-position:-124px -17px;color:#48C645;}
+.ico-auth{background-position:-33px -20px;width:18px;height:15px;line-height:999px;vertical-align:top;}
+.ico-cert{background-position:-52px -20px;width:18px;height:15px;line-height:999px;vertical-align:top;}
+.ico-mobile{background-position:0 -18px;width:16px;height:17px;line-height:999px;vertical-align:top;}
+.highlight-ico .ico-auth{background-position:-33px 0;}
+.highlight-ico .ico-cert{background-position:-52px 0;}
+.highlight-ico .ico-mobile{background-position:0 0;}
+
+.ico-fastpay-manage{background-position:-242px 0;width:12px;height:12px;}
+.tab-ico-cft{background-position:-71px -18px;width:16px;height:17px;}
+.tab-ico-qq{background-position:-88px -18px;width:16px;height:17px;}
+.tab-ico-cb{background-position:-105px -18px;width:18px;height:17px;}
+
+
+/* [账户]*/
+
+.account-name{z-index:111;position:relative;height:30px;width:62%;}
+
+.account-name h2{float:left;font-size:14px;margin-top:6px\9;*margin-top:5px;}
+
+.account-name h2:not(tid){margin-top:4px;border-left: 3px solid #c4251c;
+padding-left: 10px;}
+
+.account-name .split{float:left;color:#E1E1E1;margin-right:8px;margin-top:7px\9;_margin-top:6px;}
+
+.account-name .split:not(tid){margin-top:6px;}
+
+.account-name .link{float:left;margin-top:9px\9;_margin-top:6px;}
+
+.account-name .link:not(tid){margin-top:6px;margin-top:8px\9;}
+
+.account-name h2 a{color:#999999;font-weight:normal;}
+
+/* tab模块 */
+.account{position: relative;top: 0;left: 0;width:960px;height:100px;background: #faf4ea;margin:0;padding:0;}
+.account-tab{position:relative;background: #faf4ea;width:960px;}
+.account-tab .tab-title{padding-right:0;position: absolute;right: 0;top: -35px;}
+.account-tab .tab-title ul{float:right;_padding-left:1px;}
+.account-tab .tab-title li{border-color:#C6C6C6;margin-right:0;margin-left:-1px;}
+.account-tab .tab-title li.on{background-color:#faf4ea;}
+.account-tab .tab-title li a{position:relative;height:34px;line-height:34px\0;*line-height:32px;color:#545454;}
+.account-tab .tab-title li a:not(tid){line-height:32px;}
+.account-tab .tab-title li .txt{min-width:92px;_width:92px;white-space:nowrap;}
+.account-tab .tab-title li .ico{margin-right:7px;_margin-top:8px;vertical-align:-4px\0;*vertical-align:-2px;}
+.account-tab .tab-title li .ico:not(tid){vertical-align:-4px;}
+.account-tab .tab-title li .tab-ico-qq{vertical-align:-5px\0;*vertical-align:-3px;}
+.account-tab .tab-title li .tab-ico-qq:not(tid){vertical-align:-5px;}
+.account-tab .tab-title li.on a, .account-tab .tab-title li a:hover{color:#257CA1;}
+.account-tab .tab-title li.on .tab-ico-cft, .account-tab .tab-title li a:hover .tab-ico-cft{background-position:-71px 0;}
+.account-tab .tab-title li.on .tab-ico-qq, .account-tab .tab-title li a:hover .tab-ico-qq{background-position:-88px 0;}
+.account-tab .tab-title li.on .tab-ico-cb, .account-tab .tab-title li a:hover .tab-ico-cb{background-position:-105px 0;}
+.account-tab .tab-main{background-color:#faf4ea;padding: 15px 0px;box-shadow: 1px 1px 2px rgba(0,0,0,.1);width:100%;}
+.account-tab .tab-content{min-height:100px;_height:100px;}
+.account-tab .tab-content-info{position:relative;}
+
+
+/* 财付通账户 > 账户余额 */
+.balance{z-index:90;position:relative;width:523px;}
+.balance-title{_display:inline;float:left;font-weight:400;margin:0 4px 0 10px;margin-top:21px\0;*margin-top:21px;_margin-top:19px;}
+.balance-title:not(tid){margin-top:21px;}
+.balance-content{float:left;height:50px;}
+.balance-content .money-wrap .val{display:inline-block;height:36px;font:400 36px/36px Arial;color:#FF8500;vertical-align:-2px;*vertical-align:0;margin:4px 3px 0 0;margin-top:2px\9;*margin-top:2px;padding:2px 3px 0 0;cursor:pointer;border:1px dotted #F8F8F8;}
+.balance-content .money-wrap .val-wrap{float:left;} 
+.balance-content .money-wrap .hover-wrap{display:none;position:absolute;color:#999999;}
+.balance-content .money-wrap .hide-wrap{float:left;margin-left:10px;color:#999999;margin-top:22px\9;_margin-top:22px;}
+.balance-content .money-wrap .hide-wrap:not(tid){margin-top:22px;}
+/* [CLASS交互] [[ */
+.balance-content .hover-money .hover-wrap{display:block;}
+.balance-content .hover-money .val{border-color:#FF8500;}
+.balance-content .hide-money .hide-wrap{display:block;}
+.balance-content .hide-money .val-wrap{display:none;}
+/* ]] */
+.balance-content .money-wrap .decimal{font-size:0.66em;}
+.balance-content .money-wrap .len-7, .balance-content .money-wrap .len-8{font-size:26px;margin-top:24px;*vertical-align:-3px;}
+.balance-content .money-wrap .len-9, .balance-content .money-wrap .len-10,
+.balance-content .money-wrap .len-11, .balance-content .money-wrap .len-12{font-size:18px;height:30px;line-height:30px;margin-top:29px;vertical-align:-1px;*margin-top:28px;*vertical-align:-2px;}
+.balance-content .buttons{position:absolute;right:10px;*right:10px;_left:263px;top:13px;white-space:nowrap;}
+.balance-content .buttons .btn{margin-right:2px;vertical-align:top;background:#c4251c;color:#fff;border-radius:4px;}
+
+.safe-wrap{margin-top:13px;}
+.safe-wrap .split{float:left;float:left;margin:0 0 0 8px;background-color:#E1E1E1;width:1px;height:17px;overflow:hidden;text-indent:-99px;}
+.safe-wrap .split2{display:none;margin-left:3px;}
+
+.safe{position:absolute;top:0px;left:521px;width:264px;height:73px;padding-top:23px;border-left:1px dashed #E0E3E6;z-index:11;}
+.safe-title{_display:inline;float:left;margin:0 5px 0 31px;font-family:\5b8b\4f53;font-weight:400;}
+.safe-level{float:left;}
+.safe-level .ico{vertical-align:top;margin-top:1px;}
+.safe-content{position:relative;z-index:80;clear:both;padding:5px 0 0 22px;}
+.safe-content .safe-item{float:left;display:inline;position:relative;z-index:11;color:#999999;margin-left:13px;font-family:\5b8b\4f53;}
+.safe-content .safe-item .pointer{cursor:pointer;}
+.safe-content .safe-item:hover .pointer{color:#00A7EE;}
+.safe-content .safe-item .ico{float:left;margin:1px 4px 0 0;}
+.safe-content .safe-item .ico-mobile{margin-top:0;}
+.safe-content .safe-item-auth{margin-left:8px;}
+.safe-content .safe-item .safe-layer-tips{display:none;z-index:2;top:19px;right:-7px;color:#666666;white-space:nowrap;}
+.safe-content .safe-item .first-layer-tips{z-index:11;}
+.safe-content .safe-item .safe-layer-tips .ico-direction-t{left:auto;right:50px;}
+.safe-content .safe-item .safe-layer-tips .layer-tips-main{padding-right:12px;}
+.safe-content .show-safe-layer-tips .safe-layer-tips{display:block;}
+
+/* 财付通账户 > 交易记录 */
+.record{z-index:12;position:relative;float:left;margin:-5px 0 0 -3px;}
+.record-label{z-index:2;position:relative;float:left;height:28px;line-height:28px;padding:0 10px 0 10px;white-space:nowrap;font-family:\5b8b\4f53;color: #c4251c;}
+.record-label .record-ico-clock{position:absolute;left:10px;top:5px\9;cursor:pointer;}
+.record-label .record-ico-clock:not(tid){top:6px;}
+.record-label .record-ico-detail{position:absolute;left:10px;top:5px\9;cursor:pointer;}
+.record-label .record-ico-detail:not(tid){top:6px;}
+.record-label .record-ico-arrow{position:absolute;right:10px;top:12px\9;_top:11px;cursor:pointer;}
+.record-label .record-ico-arrow:not(tid){top:12px;}
+.record-layer{display:none;z-index:1;position:absolute;top:27px;left:-283px;width:612px;min-height:296px;_height:296px;border:1px solid #6F859D;background-color:#FFFFFF;}
+.record-title{padding:12px 16px 17px 28px;border-bottom:1px solid #E5E9EE;}
+.record-title .link{float:left;}
+.record-title .split-line{float:left;color:#CCCCCC;margin:-2px 10px 0;}
+.record-title .split-line:not(tid){margin-top:0;}
+.record-title .link-packup{float:right;}
+.record-title .on, .record-title .on:hover{color:#666666;text-decoration:none;cursor:default;}
+.record-table th, .record-table td{text-align:left;padding-left:0;}
+.record-table tr{cursor:pointer;}
+.record-table .col1{padding-left:28px;width:100px;}
+.record-table .col3{width:110px;}
+.record-table .col4{width:68px;text-align:right;padding-right:22px;white-space:nowrap;}
+.record-loading{display:none;height:210px;text-align:center;}
+.record-loading .ico-loading-16{margin-top:97px;}
+.record-empty-tips{display:none;padding:60px 0 0;}
+.record-empty-tips .tips-ico{padding-left:25%;top:-2px;}
+.record-query-fail{display:none;text-align:center;margin-top:93px;}
+.record-query-fail p{margin-left:6px;display:inline-block;*display:inline;zoom:1;vertical-align:-2px;}
+.record-more{border-top:1px solid #E5E9EE;text-align:right;padding:9px 15px 9px 0;}
+/* [差异化体验] */
+.record-layer{
+	-moz-box-shadow:1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow:1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow:1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.record-divide-title{_display:inline;float:left;margin:0 5px 0 10px;font-family:\5b8b\4f53;font-weight:400;}
+.record-divide .split-line{float:left;color:#CCCCCC;margin:-1px 10px 0;}
+.record-divide .split-line:not(tid){margin-top:-1px;}
+.record-divide .split-line:not(tid){margin-top:-2px\9;}
+.record-divide .record-title{padding:8px 19px 7px 28px;}
+.record-divide .record-title .btn-close{float:right;}
+.record-trade .record-layer{left:-94px;}
+.record-details .record-layer{left:-144px;}

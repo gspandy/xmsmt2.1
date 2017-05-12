@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>添加店长等级</title>
+<meta name="author" content="rsico Team" />
+<meta name="copyright" content="rsico" />
+<link href="${base}/resources/admin/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${base}/resources/admin/js/jquery.js"></script>
+<script type="text/javascript" src="${base}/resources/admin/js/jquery.validate.js"></script>
+<script type="text/javascript" src="${base}/resources/admin/js/common.js"></script>
+<script type="text/javascript" src="${base}/resources/admin/js/input.js"></script>
+<style type="text/css">
+.brands label {
+	width: 150px;
+	display: block;
+	float: left;
+	padding-right: 6px;
+}
+</style>
+<script type="text/javascript">
+$().ready(function() {
+	var $inputForm = $("#inputForm");
+	
+	[@flash_message /]
+	
+	// 表单验证
+	$inputForm.validate({
+		rules: {
+			levelName: {
+				required: true
+			},
+			level: {
+				required: true
+			},
+			inviteCondition: {
+				required: true,digits:true
+			},
+			bonusLevel: {
+				required: true,digits:true
+			},
+			ticketNum: {
+				required: true,digits:true
+			}
+		}
+	});
+});
+</script>
+</head>
+<body>
+	<div class="path">
+		<a href="${base}/admin/common/index.jhtml">${message("admin.path.index")}</a> &raquo; 添加vip等级
+	</div>
+	<form id="inputForm" action="save.jhtml" method="post">
+		<table class="input">
+			<tr>
+				<th>
+					<span class="requiredField">*</span>等级名称:
+				</th>
+				<td>
+					<input type="text" id="levelName" name="levelName"  
+						style="width:60px;" class="text" maxlength="10" />
+					<select id="level" name="level" style="width:40px;" >
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<span class="requiredField">*</span>邀请店长人数:
+				</th>
+				<td>
+					<input type="text" id="inviteCondition" name="inviteCondition" class="text" 
+						style="width:100px;" maxlength="4" />
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<span class="requiredField">*</span>邀请奖金比例:
+				</th>
+				<td>
+					<input type="text" id="bonusLevel" name="bonusLevel" class="text" maxlength="2"  
+						style="width:60px"/>&nbsp;<font size="2px"><strong>%</strong></font>
+				</td>
+			</tr>
+			<tr class="brands">
+				<th>
+					<span class="requiredField">*</span>每月固定发放内购券:
+				</th>
+				<td>
+					<input type="text" id="ticketNum" name="ticketNum" class="text" style="width:100px"/>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					&nbsp;
+				</th>
+				<td>
+					<input type="submit" class="button" value="${message("admin.common.submit")}" />
+					<input type="button" class="button" value="${message("admin.common.back")}" onclick="location.href='list.jhtml'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

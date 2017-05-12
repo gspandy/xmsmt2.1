@@ -1,0 +1,124 @@
+.fastpay-wrap{height:88px;border:1px solid #DBDBDB;margin-top:5px;background:#ffffff}
+.fastpay-unopen {height:88px;}
+
+.fastpay-unopen .fastpay-safe{float:left;display:inline;width:150px;height:88px;margin-left:5px;background-position:-13px -95px;}
+.fastpay-unopen .fastpay-arrow{float:left;display:inline;width:22px;height:88px;background-position:-170px -95px;}
+.fastpay-unopen .fastpay-spread{float:left;display:inline;padding:15px 41px 5px 33px;height:60px;}
+.fastpay-unopen .spread-msg{float:left;display:inline;width:230px;height:45px;}
+.fastpay-unopen .spread-msg a{float:left;}
+.fastpay-unopen .spread-msg img{margin-top:0px;margin-right:10px;}
+.fastpay-unopen .spread-amends{float:left;display:inline;}
+.fastpay-unopen .spread-icon{float:left;display:inline;margin-right:15px;}
+.fastpay-unopen .icon-mobile{width:24px;height:35px;background-position:-120px -50px;}
+.fastpay-unopen .icon-amends{width:27px;height:34px;background-position:-146px -50px;}
+.fastpay-unopen .spread-cont{float:left;display:inline;width:150px;padding-top:5px;margin-top:0px;}
+.fastpay-unopen .spread-cont a{float:none;}
+.fastpay-unopen .spread-cont p{float:none;}
+.fastpay-unopen .spread-title{font-family:Microsoft YaHei;font-size:13px;_font-size:12px;color:#666666;}
+.fastpay-unopen .spread-title-img{position:absolute;margin:1px 0 0 -3px;}
+.fastpay-unopen .title-img-mobile{width:60px;height:16px;background-position:0 -184px;}
+.fastpay-unopen .title-img-amends{width:60px;height:16px;background-position:-61px -184px;}
+.fastpay-unopen .spread-text{color:#ABABAB;}
+.fastpay-unopen .fastpay-btn{float:left;display:inline;margin-top:36px;}
+
+/* 快捷推广区块容器 > 已开通 */
+.fastpay-opened{padding:14px 5px 5px 21px;}
+.fastpay-opened a{*line-height:19px;}
+.fastpay-opened .myfastpay{padding:0 0 12px 10px;margin-right:16px;border-bottom:1px solid #E0E3E6;}
+.fastpay-opened .myfastpay-info{position:relative;float:left;display:inline;padding-right:19px;color:#666666;}
+.fastpay-opened .myfastpay .arrow-top{position:absolute;left:29px;top:23px;*top:24px;width:13px;height:8px;background-position:-226px -76px;}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {.fastpay-opened .myfastpay .arrow-top{top:24px;}}  /*opera hack*/
+.fastpay-opened .split{padding:0 4px;color:#CCCCCC;}
+.fastpay-opened .fastbox{float:left;display:inline;padding-top:12px;}
+.fastpay-opened .fastbox-title{float:left;display:inline;padding-right:5px;font-family:\5b8b\4f53;font-weight:400;color:#666666;line-height:20px;}
+.fastpay-opened .vip-fastbox{width:221px;padding-left:10px;}
+.fastpay-opened .mobile-fastbox{width:175px;}
+.fastpay-opened .fee-fastbox{width:556px;}
+.fastpay-opened .fee-fastbox .fee-fastbox-loading{color:#666666;}
+.fastpay-opened .fee-fastbox .fastbox-main{float:left;display:inline;width:441px;height:20px;overflow:hidden;_width:auto;}
+.fastpay-opened .fee-fastbox .fastbox-lists{float:left;display:inline;}
+.fastpay-opened .fee-fastbox .split{float:left;display:inline;padding:0 5px 0 8px;}
+.fastpay-opened .service-link{display:block;}
+.fastpay-opened .service-layer-tips{z-index:111;margin-left:-35px;color:#666666;}
+.fastpay-opened .service-layer-tips-main{padding:5px 11px 6px 12px;white-space:nowrap;}
+.fastpay-opened .service-layer-tips .ico-direction-t{left:40px;}
+.fastpay-opened .service-item{float:left;display:inline;}
+.fastpay-opened .service-item .ico-service-s{vertical-align:-6px;*vertical-align:-4px;margin-right:2px;}
+.fastpay-opened .more-service{_padding-top:2px;}
+.fastpay-opened .more-service .ico-arrow-right{margin-left:5px;*vertical-align:2px;}
+/* 双色球等区块容器 > 一键充话费 */
+.mobile-appbox{background-position:right;}
+.mobile-appbox .appbox-title{padding-bottom5px;_padding-bottom:5px;}
+.mobile-appbox .label-text-tips{_position:static;float:left;width:146px;height:28px;line-height:30px\9;*line-height:30px;_line-height:26px;margin-bottom:-28px;}
+.mobile-appbox .label-text-tips:not(tid){line-height:26px;}
+.mobile-appbox .txt-mobile{z-index:22;position:relative;float:left;height:30px;line-height:28px;width:140px;background:none;border:1px solid #E1E3E5;border-right:0 none;margin:0;}
+.mobile-appbox .label-text-tips, .mobile-appbox .txt-mobile{
+	background:url(../images/index.png) no-repeat 9999px 0;  /* 解决ie6、ie7空白区无法响应鼠标的bug */
+}
+.mobile-appbox .mobile-selctrl{float:left;}
+.mobile-appbox .mobile-selctrl .selctrl-value{border-right-color:#B5BDC5;}
+.mobile-appbox .btn-charge{float:left;padding-left:0;height:32px;}
+.mobile-appbox .btn-charge .ico-loading-16{padding-left:16px;vertical-align:top;margin-top:6px;}
+.mobile-appbox .mobile-datalist{display:none;margin-top:-1px;}
+.mobile-appbox .mobile-datalist ul{z-index:59;width:154px;height:auto;_height:116px;max-height:116px;}
+.mobile-appbox .mobile-datalist .mobile-no{overflow:hidden;height:22px;}
+.mobile-appbox .mobile-datalist .mobile-memo{color:#999999;margin-left:14px;white-space:normal;cursor:pointer;}
+.mobile-appbox .mobile-datalist .on .mobile-memo{color:#FFFFFF;}
+.mobile-appbox .mobile-datalist .on:hover{background-color:#517BAF;color:#FFFFFF;}
+.mobile-appbox .show-mobile-datalist .mobile-datalist{display:block;}
+
+/* 模拟下拉 */
+.selctrl{position:relative;z-index:21;display:inline-block;*display:inline;*zoom:1;vertical-align:top;height:30px;font-size:12px;}
+.selctrl .selctrl-value{display:inline-block;vertical-align:top;position:relative;height:30px;line-height:30px;width:34px;background-color:#FFFFFF;border:1px solid #E1E1E1;overflow:hidden;padding:0 16px 0 6px;color:#666666;}
+.selctrl-ico{background-position:-234px 0;position:absolute;top:11px;right:5px;width:7px;height:4px;cursor:pointer;}
+.selctrl-list{display:none;position:absolute;left:0;top:27px;width:54px;padding:0 1px 1px;border:1px solid #E1E1E1;background-color:#fff;}
+.selctrl-list li{margin-top:1px;zoom:1;}
+.selctrl-list li a{display:block;height:25px;line-height:25px;overflow:hidden;padding:0 5px;white-space:nowrap;color:#666666;}
+.selctrl-list li a:hover{background-color:#E2E7EE;text-decoration:none;}
+.selctrl-list li a.on, .selctrl-list li a.on:hover{cursor:default;background-color:#517BAF;color:#FFFFFF;text-decoration:none;}
+.show-selctrl-list .selctrl-list{display:block;}
+.show-selctrl-list .selctrl-ico{background-position:-234px -5px;}
+
+.inner-wrap{min-height:185px;_height:185px;border:1px solid #DBDBDB;margin-top:10px;padding:10px 0;position:relative;background:url(../images/member_c.jpg) no-repeat;}
+.appbox{min-height:118px;_height:138px;border-left:0px dashed #DFE1E1;padding: 27px 0 0 10px;position:absolute;top:0;left:10px;}
+.appbox-title{padding:10px 0 15px;font-family:\5fae\8f6f\96c5\9ed1, \5b8b\4f53;}
+.appbox-title h2{display:inline-block;*display:inline;*zoom:1;vertical-align:0;margin-right:6px;}
+.appbox-title p{display:inline-block;*display:inline;*zoom:1;color:#A9A9A9;}
+.appbox-dy {width:357px;min-height:185px;padding:0 0 0 29px;_padding:0 0 0 19px;border-left:1px dashed #E1E3E5;position:absolute;top:10px;right:2px;left:auto;}
+.appbox-dy li {line-height:33px;}
+.appbox-dy li span{width: 5px;
+height: 5px;
+border-radius: 50%;
+float: left;
+margin: -8px 0 0 -10px;_margin: -10px 0 0 -10px;padding:0;font-size: 30px;color:#f00;}
+.appbox-dy li a {color:#0678B5}
+
+/*   信息互动
+------------------------------ */
+.coupons {margin-top:10px}
+.coupons .advPostion{float:left;width:570px;height:230px;background:#f7f7f7} 
+.coupons .coupons-wrap{border:1px solid #dbdbdb;float:right;}
+.coupons .coupons-wrap{font-size:12px;line-height:24px;}
+.coupons .coupons-wrap{width:230px; min-height:204px;}
+.coupons .coupons-wrap h2{height:30px;padding-left:6px;background-color:#0096e0;color:#fff;padding-top:4px;
+        font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";}
+.coupons .coupons-wrap ul{padding:0 5px;}
+.coupons .coupons-wrap ul li{width:100%;height:24px;line-height:24px;text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;}
+.coupons .coupons-wrap ul li a span{margin-top: -2px;
+float: left;
+padding: 0 3px;}
+
+
+.adv1{margin-top:10px;float:left;background:#f7f7f7;} 
+
+.mainnav-link .nav-enterprise {
+	color: rgb(255, 143, 0); text-decoration: none; border-bottom-color: rgb(255, 143, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.mainnav-link .nav-enterprise .alt-bg {
+	background-position: -257px -148px;
+}
+.w_hot{padding: 20px 0 5px 0;background: url(../images/hot.png) no-repeat;}

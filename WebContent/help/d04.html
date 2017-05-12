@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />		
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/swiper.min.css"/><!-- 滚动图用到的css -->
+		<link rel="stylesheet" href="css/zhibang.css" />
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<title></title>
+		
+		
+	<style>
+	    .swiper-container {
+	        width: 100%;
+	        
+	    }
+	    .swiper-slide {
+	        text-align: center;
+	        font-size: 18px;
+	        background: #fff;
+	
+	        /* Center slide text vertically */
+	        display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: -webkit-flex;
+	        display: flex;
+	        -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        -webkit-align-items: center;
+	        align-items: center;
+	    }
+	    .swiper-slide img{ width: 100%;}
+	 </style>
+
+	</head>
+	<body>
+<!-- 		<header class="header"> -->
+<!-- 		  <div class="header-l"><a href="#" class="icon-Left-arrow"></a></div> -->
+<!-- 		  <div class="header-c">乔丹官方内购店</div> -->
+<!-- 		  <div class="header-d"><a href="#" class="icon-Left-Question">开通VIP</a></div> -->
+<!-- 		</header> -->
+		
+		
+		
+		<div class="container top-mg50">
+			
+			  <!-- 滚动banner -->
+			    <div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide"><img src="img/banner01.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner02.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/banner03.jpg"/></div>
+			            
+			        </div>
+			        <!-- banner上的圆点 -->
+			        <div class="swiper-pagination"></div>
+			    </div>
+
+			
+			<div class="voucher-info">
+				<h1 class="pop-but"><em>你有<span>3</span>张 内购券，价值连城哦~</em></h1>
+			</div>
+			
+			<div class="Class-info">
+							<h2><a href="#" class="Class-info-sl">全部商品</a><a href="#">上衣</a><a href="#">运动</a><a href="#">鞋子</a><a href="#">短裤</a></h2>
+			
+			</div>
+			
+			
+			
+			
+			 <!--列表 -->
+			  <div class="newindex-list">
+			    <ul>
+			      <li><a href="#">
+			        <h1><img src="img/orderimg01.png"/><span>分享奖金￥130</span></h1>
+			        <h2>【会所专用】LOVETEA高档功夫茶具</h2>
+			        <h3><b>￥430</b><span>内购价</span></h3>
+			        <h4>市场价<s>￥1050</s></h4>
+			        <h5>天猫价：1800</h5>
+			        </a></li>
+			      <li><a href="#">
+			        <h1><img src="img/orderimg01.png"/><span>分享奖金￥130</span></h1>
+			        <h2>具功夫茶具礼盒</h2>
+			        <h3><b>￥430</b><span>内购价</span></h3>
+			        <h4>市场价 <s>￥1050</s></h4>
+			        <h5>天猫价：1800</h5>
+			        </a></li>
+			      <li><a href="#">
+			        <h1><img src="img/orderimg01.png"/><span>分享奖金￥130</span></h1>
+			        <h2>【会所专用】LOVETEA高档功夫茶具套 景德镇陶瓷茶具功夫茶具礼盒</h2>
+			        <h3><b>￥430</b><span>内购价</span></h3>
+			        <h4>市场价<s>￥1050</s></h4>
+			        <h5>天猫价：1800</h5>
+			        </a></li>
+			    </ul>
+			  </div>
+			</div>
+		</div>
+			
+			
+		
+		
+		
+		<!--弹出窗口-->
+		
+		<div class="pop-bg">
+			<div class="pop-box">
+				<div id="pop-con" class="pop-con">
+					<h4><span class="pop-icon-Voucher"></span></h4>
+					<h1>心动了吧！想购买商品需 要有内购券！</h1>					
+					<h5><em></em></h5>
+					<h6><s><a class="but-link02 pop-close">稍后下载</a></s><i><a class="but-link01 mobile-but">领取内购券</a></i></h6>
+				</div>				
+			</div>			
+		</div>
+		
+		
+		
+	
+		
+		<script>
+		   //弹出窗口
+			$(".pop-but").click(function(){
+				$(".pop-box").show();
+				$(".pop-bg").show();
+			})
+			
+			//关闭窗口
+			$(".pop-close").click(function() {
+				popclose();
+			})
+			
+			function popclose(){
+				$(".pop-box").hide();
+				$(".pop-bg").hide();				
+			}
+		
+			
+			
+			$(".mobile-but").click(function() {
+				var mbinput=$("#mobile-input");
+				var tipinfo=$(".pop-con h5");
+				location.href="http://m.z8ls.com"
+				popclose();
+
+			})
+			
+			
+		</script>
+		
+		
+		<!-- 滚动图用到的脚本 -->
+	    <script src="js/swiper.min.js"></script>	    
+	    <script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	    });
+	    </script>
+	
+
+<div style="margin-top:30%;"><a href="../help/Help-b.html" style="float:right;" onClick=”javascript :history.back(-1);”><img style="position:fixed; bottom:0; right:0; " width="50px" height="50px" src="../help/img/back.jpg"></a></div>
+<SCRIPT language=javascript>
+function go()
+{
+window.history.go(-1);
+}
+setTimeout(“go()”,3000);
+</SCRIPT>	
+	</body>
+	
+	
+	
+</html>

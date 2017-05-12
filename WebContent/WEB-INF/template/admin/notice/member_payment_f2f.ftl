@@ -1,0 +1,1 @@
+你购买的 ${productName} 商品激活码为: ${validatecode}。【${signature}】

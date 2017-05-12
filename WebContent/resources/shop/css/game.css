@@ -1,0 +1,163 @@
+.content {
+	width: 779px; padding-bottom: 30px; float: right; min-height: 0px; _height: 0px;
+}
+.game-index {
+	padding-top: 10px;
+}
+.game-index .form .high-text .gray {
+	font-size: 12px;
+}
+.game-index .form-line {
+	font-size: 14px;
+	height:40px;
+}
+.game-index .game-form-line {
+	height:50px;
+}
+.game-time .element .lab-wrap {
+	padding: 3px 0px 3px 5px; border: 1px solid rgb(255, 255, 255); width: 300px; clear: both; margin-bottom: 10px; float: left; display: block;
+}
+.game-time .element .lab-wrap:hover {
+	border: 1px solid rgb(229, 233, 243); padding-left: 5px; background-color: rgb(241, 245, 250);
+}
+.game-time .element .on {
+	border: 1px solid rgb(229, 233, 243); padding-left: 5px; background-color: rgb(241, 245, 250);
+}
+.form .element .gray {
+	font-size: 14px;
+}
+.form .element .text-tips {
+	font-size: 14px;
+}
+.game-index .lidou {
+	font-size: 12px;
+}
+.game-index .lidou img {
+	margin-right: 8px; vertical-align: middle;
+}
+.game-index .lidou .num-lidou {
+	color: rgb(255, 102, 51); font-size: 11px; font-weight: bold;
+}
+.ico-ad-tips {
+	background: url("../images/game_v2_png24.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/game_v2_png24.png) no-repeat;
+}
+.ico-ad-tips span {
+	background: url("../images/game_v2_png24.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/game_v2_png24.png) no-repeat;
+}
+.charge-money a.on {
+	background: url("../images/game_v2_png24.png") no-repeat; overflow: hidden; border:0px; display: inline-block; _background: url(../images/game_v2_png24.png) no-repeat;
+}
+.charge-money a.on span {
+	background: url("../images/game_v2_png24.png") no-repeat; overflow: hidden; display: inline-block; _background: url(../images/game_v2_png24.png) no-repeat;
+}
+.ico-ad-tips {
+	background-position: right -79px; height: 17px; padding-right: 8px; font-family: ËÎÌו; margin-right: 8px; vertical-align: middle;
+}
+.ico-ad-tips span {
+	background-position: -249px -79px; height: 17px; color: rgb(255, 255, 255); line-height: 18px; padding-left: 4px; font-size: 12px; vertical-align: top; background-color: rgb(255, 102, 0);
+}
+
+.form-line-btn .loading .blues-btn {
+	display: none;
+}
+.game-index .game-charge .select {
+	width:209px;line-height:30px;border: 1px solid rgb(216, 216, 216);
+	font-size: 14px;
+}
+.game-form-line .element {
+	position: relative; z-index: 1;
+	height:30px;
+}
+.game-index .game-charge {
+	padding-top: 0px; font-family: Tahoma;
+}
+.game-index .game-charge-rec {
+	width: 71%; float: left;
+}
+.game-index .game-charge-aside-rec {
+	width: 213px; padding-top: 20px; float: right;
+}
+.game-index .game-charge .form .label {
+	width: 26%;
+	padding-top: 0px;
+}
+.game-index .game-charge .form .element {
+	width: 74%;
+}
+.game-form-line .element {
+	position: relative; z-index: 1;
+}
+.game-charge .form-index {
+	padding-top: 10px;
+}
+.game-charge .form-guide {
+	margin-left: -41px;
+}
+.game-charge .num-company {
+	margin-right: 13px;
+}
+.game-num {
+	float: left; _width: 156px; _display: inline-block;
+}
+.form-guide {
+	height: 19px; line-height: 19px; overflow: hidden; font-family: ËÎÌו; font-size: 12px;
+}
+.form-guide .ad-ul {
+	top: 0px; display: inline-block; position: absolute;
+}
+.form-guide .ad-li {
+	height: 19px; color: rgb(102, 102, 102);
+}
+.form-guide .ad-li a {
+	vertical-align: baseline;
+}
+.game-high-text .label {
+	height: 40px; line-height: 40px;
+}
+.game-high-text input.text {
+	width: 199px; height: 36px; line-height: 36px; font-size: 24px;
+}
+.new-recommend {
+	border: 1px solid rgb(221, 221, 221); width: 211px; height: 252px;
+}
+.new-recommend .rec-title {
+	padding: 10px 0px 3px 14px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.new-recommend .rec-cnt {
+	background: url("../images/recom_autorecharge.png") no-repeat 47px 10px; padding: 120px 15px 15px 14px;
+}
+.new-recommend .rec-cnt .free-open {
+	margin-top: 6px; float: right;
+}
+.new-recommend .statement-1 {
+	display: none;
+}
+.new-recommend .statement-2 {
+	display: none;
+}
+.new-recommend .rec-status-1 .statement-1 {
+	display: block;
+}
+.new-recommend .rec-status-2 .statement-2 {
+	display: block;
+}
+
+
+.intro {
+	margin: 30px 0px 20px 10px; clear: both;
+}
+.intro ol {
+	margin: 5px 0px 0px 5px; color: rgb(102, 102, 102); line-height: 1.5; padding-left: 20px;
+}
+.intro li {
+	list-style: decimal; padding: 2px 0px;
+}
+
+
+.mainnav-link .nav-life {
+	color: rgb(255, 143, 0); text-decoration: none; border-bottom-color: rgb(255, 143, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.mainnav-link .nav-life .alt-bg {
+	background-position: -257px -185px;
+}
+

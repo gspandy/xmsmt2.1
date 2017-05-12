@@ -1,0 +1,482 @@
+div.credit {
+  margin: auto;
+  max-width:1000px;
+  position:relative;
+}
+.ps-pn {
+	position: relative;
+}
+* html .ps-pn {
+	-ms-zoom: 1;
+}
+.ps-wrapper {
+	line-height: 1.2; font-size: 12px; position: absolute;display: none;
+}
+.ps-tag {
+	border-width: 1px; border-style: solid; border-color: rgb(185, 205, 229) rgb(185, 205, 229) rgb(255, 255, 255); padding: 3px 5px; left: 0px; top: 0px; overflow: hidden; position: absolute; background-color: transparent;
+}
+.ps-inner {
+	padding: 25px 10px 10px; border: 1px solid rgb(185, 205, 229); left: 0px; top: 21px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.ps-inner-c {
+	padding: 25px 10px 10px; border: 1px solid rgb(185, 205, 229); left: 0px; top: 21px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.ps-closer {
+	border: currentColor; top: 6px; width: 9px; height: 9px; right: 6px; font-weight: bold; position: absolute; cursor: pointer;
+}
+.ps-inner-c {
+	padding: 10px;
+        width:440px;
+}
+.ps-inner-c .ps-closer {
+	display: none;
+}
+.ps-content {
+	height: 1%;
+}
+.relative {
+	position: relative;
+}
+.gray {
+	color: rgb(153, 153, 153);
+}
+.icon-dropdown {
+	border-width: 4px; border-style: solid dashed dashed; border-color: rgb(54, 114, 168) transparent transparent; margin: 0px 0px -1px 3px; width: 0px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block;
+}
+.err {
+	background: url("/res/tenpay_v1/global/img/err.gif") no-repeat 45px top; color: rgb(255, 0, 0); padding-left: 65px; font-size: 12px; font-weight: normal; display: none;height:30px;
+}
+.col-2 h5 {
+	font-size: 14px;
+}
+.mod-tips {
+	padding: 1px 10px; border: 1px solid rgb(239, 220, 173); color: rgb(96, 96, 96); font-family: Tahoma, Geneva, sans-serif; font-size: 12px; margin-left: 10px; display: none; background-color: rgb(255, 250, 213);
+}
+.mod-tips strong {
+	color: rgb(250, 103, 47); font-weight: normal;
+}
+.mod-tips a {
+	text-decoration: none;
+}
+.col-main {
+	width: 544px; float: left; min-height: 1px;margin-top:10px;
+}
+.col-sub {
+	float: right;
+}
+.col-2-banner {
+	margin-bottom: 20px;
+}
+.apply .activated-wrapper {
+	position: relative; -ms-zoom: 1;margin-top: 0px;float:left;width:545px;
+}
+.col-2-credit {
+	margin: 0px 0px 2px;min-height:197;padding-bottom: 8px; height: 295px; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 0px; border-bottom-style: solid; position: relative; z-index: 400;
+}
+.col-2-credit .main-wrap {
+	border: 1px solid rgb(201, 201, 201);min-height:197;
+}
+* html .col-2-credit .main-wrap {
+	height: 185px; overflow: visible;
+}
+.col-2-credit .col-sub {
+	border: 1px solid rgb(222, 222, 222); width: 214px; height: 227px;
+}
+.col-2-credit::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: " ";
+}
+.main-wrap::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: " ";
+}
+.col-sub::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: " ";
+}
+.col-2-credit {
+	-ms-zoom: 1;
+}
+.main-wrap {
+	-ms-zoom: 1;
+}
+.col-sub {
+	-ms-zoom: 1;
+}
+.col-2-credit .main-wrap {
+	padding-top: 15px; font-size: 14px; position: relative; min-height:213px;
+}
+.col-2-credit .hd {
+	margin: 0px 20px; padding-bottom: 10px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid; _height: 1%;
+}
+.credit-other ul {
+	margin-left: 60px;
+}
+.credit-other li::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: " ";
+}
+.credit-other li {
+	padding: 5px 0px; line-height: 18px; -ms-zoom: 1; height:28px;
+}
+.credit-other li label {
+	text-align: right; line-height: 22px; float: left;
+}
+
+.credit_showcase_other li label {
+	width:110px;
+}
+
+
+.credit-other li input {
+	width: 150px; height: 20px; line-height: 20px; padding-left: 4px; vertical-align: middle; float: left;border:1px;border-style:solid;border-color:#b8b8b8;
+}
+.credit-other .select-bank {
+	float: left;
+}
+.credit-other .credit-remind-area {
+	margin: 5px 0px 15px 24px; line-height: 30px; padding-left: 140px; font-size: 12px; position: relative; _height: 30px;
+}
+.credit-other .credit-remind-area input {
+	vertical-align: middle; _margin-top: -4px;
+}
+.credit-other .credit-remind-area label {
+	margin-left: 5px;
+}
+.credit-other .credit-remind-span {
+	background-position: -177px -286px; padding: 2px 20px 2px 5px; border: 1px solid rgb(255, 255, 255); width: 58px; text-align: center; color: rgb(7, 103, 156); line-height: 15px; vertical-align: middle; cursor: pointer;
+}
+.credit-other .credit-remind-day {
+	margin: 0px 3px; color: rgb(255, 0, 0); font-weight: bold;
+}
+.credit-other .credit-remind-hover {
+	border: 1px solid rgb(201, 201, 201);
+}
+.credit-other .credit-remind-click {
+	background-position: -177px -301px; border: 1px solid rgb(255, 255, 255); background-color: rgb(242, 242, 242);
+}
+.credit-other .select-bank {
+	width: 152px;
+}
+.credit-other .select-bank .bank-logo {
+	margin-left: 9px;
+}
+.credit-other .select-bank .icon-dropdown {
+	top: 68px; right: 235px; position: absolute;
+}
+
+.select-bank .icon-up {
+	border-width: 5px; border-style: dashed dashed solid; border-color: transparent transparent rgb(54, 114, 168); margin: -5px 0px -10px 3px;
+}
+
+.credit-other .err {
+	background-position: 110px; padding-left: 130px;
+}
+.credit-other .credit-remind-tips {
+	left: 145px; top: 28px; position: absolute; _width: 250px;
+}
+.credit-other .credit-remind-tips li {
+	list-style: decimal inside; padding: 2px 0px; -ms-zoom: 0;
+}
+.credit-other .credit-num-ipt {
+	font: bold 22px/33px Arial, Helvetica, sans-serif; width: 245px; height: 33px; font-size-adjust: none; font-stretch: normal;
+}
+.credit-other .credit-bank-tips {
+	padding: 3px 10px; line-height: 18px; margin-left: 110px; display: none;
+}
+.credit-other .credit-bank-tips #span_arrive_time_tips b {
+	font-weight: normal;
+}
+.credit-other .credit-bank-tips label {
+	width: auto; height: 20px; line-height: 18px;
+}
+.ps-custom .ps-tag {
+	border-width: medium medium 1px; border-style: none none solid; border-color:rgb(255, 255, 255); left: 1px; width: 142px; height: 16px;
+}
+.ps-custom .ps-inner-c {
+	border: 1px solid rgb(127, 157, 185); top: 42px;
+}
+.repayment-amount {
+        float: left;
+        padding: 3px 0px;
+	font-size: 14px; margin-left: 56px;
+}
+.repayment-amount p {
+	padding: 5px 0px;
+}
+.repayment-amount input {
+	height: 18px; line-height: 18px; vertical-align: middle;border:1px;border-style:solid;border-color:#b8b8b8;
+}
+.repayment-amount label {
+	width: 110px; text-align: right;
+}
+.repayment-amount .float-l {
+	float: left;
+}
+.repayment-amount .indent {
+	padding-left: 110px; font-size: 12px; margin-top: 8px; position: relative; z-index: 10; -ms-zoom: 1;
+}
+.repayment-amount .indent label {
+	width: auto; margin-right: 10px; display: inline;
+}
+.repayment-amount .indent input {
+	margin-right: 5px;
+}
+.repayment-amount .btn-area {
+	clear: both; margin-top: 9px; position: relative; z-index: 1; -ms-zoom: 1;
+}
+.repayment-amount .discount em {
+	color: rgb(250, 103, 47); font-style: normal; font-weight: bold;
+}
+.repayment-amount .discount .hui {
+	color: rgb(96, 96, 96);
+}
+.repayment-amount .err {
+	background-position: 110px; padding: 5px 0px 5px 130px;
+}
+.repayment-amount ins {
+	text-decoration: none;
+}
+.repayment-amount .discount-tips {
+	margin: 5px 0px 0px 110px; padding: 5px 0px 5px 5px; width: 222px; clear: both;
+}
+.portal_rpm_apply .discount-tips {
+	width: 295px; clear: both;
+}
+.portal_rpm_apply .red {
+	color: red;
+}
+.portal_rpm_apply .repayment-amount .record {
+	padding-left: 110px; font-size: 12px;
+}
+.portal_rpm_apply .repayment-amount .text-tips {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.portal_rpm_apply .repayment-amount .dark-gray {
+	color: rgb(51, 51, 51);
+}
+.portal_rpm_apply .repayment-amount .record-ico-clock {
+	background-position: -17px -182px; margin: -2px 5px 0px 0px; width: 16px; height: 17px; vertical-align: middle;
+}
+.repayment-amount .label {
+	line-height: 18px; float: left;
+}
+.portal_rpm_apply .element {
+	padding-bottom: 5px; display: inline-block; _margin-left: -2px;
+}
+.portal_rpm_apply .element input {
+	width: 150px; padding-left: 4px; margin-top: -2px; _position: relative;
+}
+.portal_rpm_apply .font-12 {
+	font-size: 12px;
+}
+.intro {
+	margin: 30px 0px 20px 10px; clear: both;
+}
+.intro ol {
+	margin: 5px 0px 0px 5px; color: rgb(102, 102, 102); line-height: 1.5; padding-left: 20px;
+}
+.intro li {
+	list-style: decimal; padding: 2px 0px;
+}
+.select-bank {
+	border: 1px solid rgb(127, 157, 185); width: 152px; height: 22px; line-height: 22px; overflow: hidden; cursor: pointer;
+}
+.bank-logo {
+	background: url("../images/index_bg.png") no-repeat 25px 25px; margin: 0px; width: 0px; height: 20px; overflow: hidden; padding-left: 32px; vertical-align: middle; display: inline-block;
+}
+.cmb {
+	background-position: -29px -156px;
+}
+.icbc {
+	background-position: 1px -155px;
+}
+.cib {
+	background-position: -155px -157px;
+}
+.bankcomm {
+	background-position: -105px -210px;
+}
+.ccb {
+	background-position: -59px -156px;
+}
+.gdb {
+	background-position: -120px -181px;
+}
+.cebb {
+	background-position: -63px -210px; padding-left: 39px; margin-right: 5px;
+}
+.ceb {
+	background-position: -63px -210px; padding-left: 39px; margin-right: 5px;
+}
+.cmbc {
+	background-position: -186px -156px;
+}
+.cmsb {
+	background-position: -186px -156px;
+}
+.pingan {
+	background-position: -141px -209px;
+}
+.pingan-bank {
+	background-position: -141px -209px;
+}
+.sdb {
+	background-position: -215px -156px;
+}
+.szdb {
+	background-position: -215px -156px;
+}
+.spdb {
+	background-position: 6px -180px;
+}
+.abc {
+	background-position: -87px -156px;
+}
+.bofc {
+	background-position: -59px -180px;
+}
+.china-bank {
+	background-position: -59px -180px;
+}
+.shbank {
+	background-position: -215px -210px;
+}
+.nbcb {
+	background-position: 5px -128px;
+}
+.bjb {
+	background-position: -118px -155px;
+}
+.bankofbeijing {
+	background-position: -118px -155px;
+}
+.hxb {
+	background-position: -27px -128px;
+}
+.hkb {
+	background-position: -60px -128px;
+}
+.njcb {
+	background-position: -92px -128px;
+}
+.jsb {
+	background-position: -120px -128px;
+}
+.hccb {
+	background-position: -150px -128px;
+}
+.zxyh {
+	background-position: -215px -180px;
+}
+.citic-bank {
+	background-position: -215px -180px;
+}
+.srcb {
+	background-position: -184px -128px;
+}
+.hkbea {
+	background-position: -216px -130px;
+}
+.psbc {
+	background-position: -89px -181px;
+}
+.bank-li {
+	margin: 2px 2px 2px 0px; border: 1px solid rgb(255, 255, 255); width: 100px; height: 22px; padding-top: 3px; float: left; display: inline-block; cursor: pointer; _display: inline;
+}
+.bank-li:hover {
+	border: 1px solid rgb(212, 226, 236);
+}
+.bank-hover {
+	border: 1px solid rgb(212, 226, 236);
+}
+.hide {
+	display: none;
+}
+.content {
+	margin: 0px; color: rgb(84, 84, 84);
+}
+.content h4 {
+	font-size: 14px;
+}
+
+.mainnav-link .nav-cb {
+	color: rgb(255, 143, 0); text-decoration: none; border-bottom-color: rgb(255, 143, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.mainnav-link .nav-cb .alt-bg {
+	background-position: -257px -37px;
+}
+
+div.credit .title {
+        margin-top:10px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	border: solid 1px #e5e5ce;
+	background-color: #edffcc;
+}
+
+div.credit .info {
+        margin-top:5px;
+	width: 100%;
+	margin-bottom: 10px;
+	border: solid 1px #e6e4e3;
+}
+
+div.credit .info th {
+	line-height: 36px;
+	padding: 0px 6px;
+	font-weight: normal;
+	text-align: right;
+	background-color: #fafafa;
+}
+
+div.credit .info td {
+	line-height: 30px;
+	padding: 6px;
+}
+
+div.credit .bottom {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #888888;
+	border-left: solid 1px #e5e5ce;
+	border-right: solid 1px #e5e5ce;
+	border-bottom: solid 1px #e5e5ce;
+	background-color: #f9f9f9;
+}
+
+div.credit .bottom a {
+	color: #0088cc;
+	font-size: 14px;
+	margin: 0px 10px;
+}
+
+.creidt-aside-rec {
+	width: 213px; padding-top: 10px; float: right;
+}
+
+.new-recommend {
+	border: 1px solid rgb(221, 221, 221); width: 211px; height: 282px;
+}
+.new-recommend .rec-title {
+	padding: 10px 0px 3px 14px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.new-recommend .rec-cnt {
+	background: url("../images/recom_autorecharge.png") no-repeat 47px 10px; padding: 120px 15px 15px 14px;
+}
+.new-recommend .rec-cnt .free-open {
+	margin-top: 6px; float: right;
+}
+.new-recommend .statement-1 {
+	display: none;
+}
+.new-recommend .statement-2 {
+	display: none;
+}
+.new-recommend .rec-status-1 .statement-1 {
+	display: block;
+}
+.new-recommend .rec-status-2 .statement-2 {
+	display: block;
+}

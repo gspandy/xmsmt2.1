@@ -1,0 +1,244 @@
+.commonBtnFont01 {
+	color: rgb(106, 67, 15); font-family: "黑体","SimHei"; font-size: 20px;
+}
+.commonBtnFont02 {
+	color: rgb(0, 0, 0); font-family: "宋体","SimSun"; font-size: 12px; font-weight: normal;
+}
+.commonMsgFont01 {
+	color: rgb(0, 153, 0); font-family: "黑体","SimHei"; font-size: 18px;
+}
+.commonMsgFont02 {
+	color: rgb(102, 102, 102); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.commonMsgFont03 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.commonMsgFont04 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.arrowsFont {
+	color: rgb(254, 103, 0); font-family: "arial"; font-size: 16px;
+}
+.positionFont {
+	color: #CB0000; font-family: "宋体","SimSun"; font-size: 12px;
+}
+.loginBarFont {
+	color: rgb(96, 96, 96); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.searchFont {
+	color: rgb(96, 146, 128); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.hotSrhFont {
+	color: rgb(111, 111, 111); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.hotSrhFont li:first-child a{font-weight:bold;}
+.mainNavFont {
+	color: rgb(255, 255, 255); font-family: "微软雅黑","Microsoft YaHei"; font-size: 16px; font-weight: bold;
+}
+.mainNavFont li{border-left:1px solid #b4301e;border-right:1px solid #d95142;}
+.mainNavFont li.w_navfirstd{border-left:0;}
+.mainNavFont li.w_navlastd{border-right:0;}
+.myCartFont {
+	color: rgb(85, 85, 84); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.cartSumFont {
+	color: rgb(255, 255, 255); font-family: "宋体","SimSun"; font-size: 11px; font-weight: bold;
+}
+.categoryFont {
+	color: rgb(222, 129, 20); font-family: "黑体","SimHei"; font-size: 16px;
+}
+.friendLinkFont {
+	color: rgb(26, 26, 26); font-family: "黑体","SimHei"; font-size: 16px;
+}
+.serviceHeaderFont {
+	color: rgb(75, 75, 75); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.serviceContentFont {
+	color: rgb(53, 53, 53); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.footerFont {
+	color: rgb(255, 255, 255) !important; font-family: "宋体","SimSun"; font-size: 12px;
+}
+.menuFont01 {
+	color: rgb(255, 255, 255); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.menuFont02 {
+	color: rgb(71, 71, 71); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.menuFont03 {
+	color: rgb(71, 71, 71); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.promotionTitleFont {
+	color: rgb(254, 103, 0); letter-spacing: 1px; font-family: "微软雅黑","Microsoft YaHei"; font-size: 15px; font-weight: bold;
+}
+.pNameFont {
+	color: rgb(140, 140, 140); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.pPriceFont {
+	color: rgb(253, 172, 45); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.psignFont {
+	color: rgb(140, 140, 140); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.taxNameFont {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.taxDtFont {
+	color: rgb(248, 250, 249); font-family: "黑体","SimHei"; font-size: 20px;
+}
+.taxDdFont {
+	color: rgb(56, 56, 56); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.floorFont01 {
+	color: rgb(104, 173, 29); font-family: "黑体","SimHei"; font-size: 16px;
+}
+.floorFont02 {
+	color: rgb(26, 26, 26); letter-spacing: 2px; font-family: "宋体","SimSun"; font-size: 16px; font-weight: bold;
+}
+.floorFont03 {
+	color: rgb(102, 102, 102); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.moreBrandFont {
+	color: rgb(113, 113, 113); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.floorDtFont {
+	color: rgb(75, 75, 75); line-height: 20px; font-family: "宋体","SimSun"; font-size: 14px;
+}
+.floorDdFont {
+	color: rgb(75, 75, 75); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.contentRightDtFont {
+	color: rgb(6, 95, 69); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.contentRightFont01 {
+	color: rgb(109, 71, 42); font-family: "黑体","SimHei"; font-size: 18px;
+}
+.contentRightFont02 {
+	color: rgb(109, 71, 42); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.contentRightFont03 {
+	color: rgb(255, 255, 255); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.loginTabFont {
+	color: rgb(80, 80, 80); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.customerServiceFont {
+	color: rgb(102, 102, 102); font-family: "宋体","SimSun "; font-size: 12px;
+}
+.moreServiceFont {
+	color: rgb(79, 133, 13); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.oneCardFont01 {
+	color: rgb(111, 141, 72); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.oneCardFont02 {
+	color: rgb(71, 71, 71); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.cartFont1 {
+	color: rgb(242, 184, 22); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.titleFont01 {
+	color: rgb(0, 0, 0); font-family: "黑体","SimHei"; font-size: 18px;
+}
+.titleFontSeq1 {
+	color: rgb(9, 108, 87); font-family: "Arial"; font-size: 30px; font-style: italic; font-weight: bold;
+}
+.titleFontSeq2 {
+	color: rgb(178, 178, 178); font-family: "Arial"; font-size: 30px; font-style: italic; font-weight: bold;
+}
+.titleFontSeq1_1 {
+	color: rgb(9, 108, 87); font-family: "黑体","SimHei"; font-size: 18px;
+}
+.titleFontSeq2_1 {
+	color: rgb(178, 178, 178); font-family: "黑体","SimHei"; font-size: 18px;
+}
+.tableDtFont {
+	color: rgb(100, 100, 100); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.tableDdFont {
+	color: rgb(20, 88, 153); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.cartItemPFont {
+	color: rgb(1, 1, 1); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.itemsAcountFont1 {
+	color: rgb(5, 5, 5); font-family: "宋体","SimSun"; font-size: 12px; font-weight: bold;
+}
+.itemsAcountFont2 {
+	color: rgb(197, 4, 4); font-family: "黑体","SimHei"; font-size: 24px; font-weight: bold;
+}
+.cartFooterFont1 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.cartFooterFont2 {
+	color: rgb(106, 67, 15); font-family: "黑体","SimHei"; font-size: 20px;
+}
+.commonFont1 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.commonFont2 {
+	color: rgb(0, 90, 160); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.crumbFont2 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px; font-weight: bold;
+}
+.allKindsFont1 {
+	color: rgb(245, 157, 1); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.allKindsFont2 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.allKindsFont3 {
+	color: rgb(153, 153, 153); font-family: "Arial"; font-size: 14px;
+}
+.proPriceFont {
+	color: rgb(221, 0, 0); font-family: "宋体","SimSun"; font-size: 12px; font-weight: bold;
+}
+.detailDtFont1 {
+	color: rgb(51, 51, 51); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.detailDtFont2 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.proPriceFont {
+	color: rgb(221, 0, 0); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.proPriceFont2 {
+	color: rgb(221, 0, 0); font-family: "宋体","SimSun"; font-size: 12px; font-weight: bold;
+}
+.favFont {
+	color: rgb(0, 128, 0); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.orderFont1 {
+	color: rgb(254, 0, 1); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.orderFont2 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.orderFont3 {
+	color: rgb(0, 0, 0); font-family: "宋体","SimSun"; font-size: 14px;
+}
+.orderFont4 {
+	color: rgb(0, 0, 0); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.orderFont5 {
+	color: rgb(198, 134, 0); font-family: "宋体","SimSun"; font-size: 12px; font-weight: bold;
+}
+.orderFont6 {
+	color: rgb(0, 0, 0); font-family: "宋体","SimSun"; font-size: 14px; font-weight: bold;
+}
+.orderDetailFont01 {
+	color: rgb(51, 51, 51); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.oneCard01 {
+	color: rgb(176, 0, 3); font-family: "黑体","SimHei"; font-size: 24px;
+}
+.oneCard02 {
+	color: rgb(67, 67, 67); font-family: "黑体","SimHei"; font-size: 16px; font-weight: bold;
+}
+.oneCard03 {
+	color: rgb(76, 76, 76); font-family: "宋体","SimSun"; font-size: 12px;
+}
+.oneCard04 {
+	font-family: "宋体","SimSun"; font-size: 12px;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />		
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/swiper.min.css"/>
+		<link rel="stylesheet" href="css/zhibang.css" />
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<title></title>
+	</head>
+	<style>
+	    .swiper-container {
+	        width: 100%;
+	        
+	    }
+	    .swiper-slide {
+	        text-align: center;
+	        font-size: 18px;
+	        background: #fff;
+	
+	        /* Center slide text vertically */
+	        display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: -webkit-flex;
+	        display: flex;
+	        -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        -webkit-align-items: center;
+	        align-items: center;
+	    }
+	    .swiper-slide img{ width: 100%;}
+	 </style>
+	<body>
+		
+		<header class="header">
+		  <div class="header-l"><a href="#" class="icon-Left-arrow"></a></div>
+		  <div class="header-c">乔丹官方内购店</div>
+		  <div class="header-r"><a href="#" class="icon-Left-ellipsis"></a>
+		  </div>
+		</header>
+		
+		  <!-- 滚动banner -->
+			
+		
+		<div class="container top-mg50">
+			
+			    <div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide"><img src="img/p01.jpg"/></div>
+			            <div class="swiper-slide"><img src="img/p02.jpg"/></div>
+			           
+			            
+			        </div>
+			        <!-- banner上的圆点 -->
+			        <div class="swiper-pagination"></div>
+			    </div>
+			
+			<!--价格-->
+			<div class="Product-details-Price">
+				<h1><span><b>￥</b>1580</span><s>内购价</s><i>全场包邮</i></h1>
+				<h2><span>市场价:￥1800</span><s style="background-image: url(img/icon-bg-07.png);">天猫价:￥1780</s></h2>
+				<h3>乔丹篮球鞋男正品折扣春夏新款减震耐磨防 滑透气高帮运动鞋男鞋子</h3>
+				<h4><span>库存 152件</span><span>销量 152件</span></h4>				
+			</div>
+			
+			
+			
+			
+			
+			<!--尺码 -->
+			<div class="Product-details-Size top-line">
+				<h1>尺码</h1>
+				<ul>
+					<li class="Product-details-Size-sl1"><a href="#"><span>31</span><em></em></a></li>
+					<li><a href="#"><span>31</span><em></em></a></li>
+					<li><a href="#"><span>32</span><em></em></a></li>
+					<li ><a href="#"><span>34</span><em></em></a></li>
+					<li><a href="#"><span>36</span><em></em></a></li>
+					<li  class="Product-details-Size-sl2"><a href="#"><span>38</span><em></em></a></li>
+					<li  class="Product-details-Size-sl2"><a href="#"><span>40</span><em></em></a></li>					
+				</ul>				
+			</div>
+			<!--正品 -->
+			<div class="Product-details-Genuine top-line">
+				<ul>
+					<li><span></span><em>100%正品保证</em></li>
+					<li><span></span><em>7天无理由退货</em></li>
+				</ul>
+			</div>
+			<!--内购券 -->
+			<div class="Product-details-Purchase top-line">
+				<h1><span class="Product-se">商品信息</span><span >进入内购店首页</span></h1>
+				<h2><span>内购券</span>单笔订单购买商品越多省钱越多</h2>
+			</div>
+			
+			<!--信息 -->
+			<div class="Product-details-info top-line">
+				
+				<ul>
+					<li><span>品牌 </span><em>乔丹</em></li>
+					<li><span>上市时间 </span><em> 2015年夏季</em></li>
+					<li><span>外底材质  </span><em>MD/橡胶</em></li>
+					<li><span>上市时间 </span><em>2015年夏季2015年夏季2015年</em></li>
+					<li><span>品牌 </span><em>乔丹</em></li>
+					<li><span>品牌 </span><em>乔丹</em></li>
+					
+				</ul>
+				<h1><a href="#">查看更多产品参数></a></h1>
+				<!--<h2><a href="#">进入乔丹内购店首页 ></a></h2>-->
+				
+			</div>
+			
+			
+			<!--图文 -->
+			<div class="Product-details-Text top-line">
+			    <h1><a href="#">图文详情  <span>（点击图片可放大）</span></a></h1>
+				<div class="details">
+				<img src="img/p01.jpg" />
+				
+				<img src="img/p02.jpg" />
+				</div>
+				
+			</div>
+			
+			
+		<!--弹出菜单-->
+		<div class="menu-right">			
+		  		<a href="#">分享</a>
+		  		<a href="#">首页</a>		  
+		</div>
+			
+		</div>
+		
+		<!--返回顶部-->
+		<div class="Return-top"><a href="#"><img src="img/Return-top.png"/></a></div>
+		
+	
+		
+		<script>
+		//尺码
+		 var li= $(".Product-details-Size li");
+		 li.not(".Product-details-Size-sl2").click(function(){
+		 	li.removeClass("Product-details-Size-sl1");
+			$(this).addClass("Product-details-Size-sl1");
+		 })
+			
+		//返回顶部	
+		  	$(window).scroll(function(){  
+                if ($(window).scrollTop()>100){  
+                    $(".Return-top").fadeIn(1500);  
+                }  
+                else  
+                {  
+                    $(".Return-top").fadeOut(1500);  
+                }  
+            });  
+
+            $("Return-top").click(function(){  
+                $('body,html').animate({scrollTop:0},1000);  
+                return false;  
+            });  
+			
+			$(".Product-details-Purchase h1 span").click(function(){
+				$(".Product-details-Purchase h1 span").removeClass("Product-se");
+				$(this).addClass("Product-se");
+			})
+			
+		</script>
+		
+		
+		
+		<!-- 滚动图用到的脚本 -->
+	    <script src="js/swiper.min.js"></script>	    
+	    <script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	    });
+	    </script>
+	    
+	    
+	    <script>
+	    $(".icon-Left-ellipsis").click(function(){	    	
+	    	var dis=$(".menu-right").css("display");
+	    	if(dis=="none"){
+	    		$(".menu-right").css("display","block")
+	    	}else{
+	    		$(".menu-right").css("display","none")
+	    	}    	
+	    })
+	    $(".menu-right a").click(function(){
+	    	$(".menu-right").css("display","none")
+	    })
+	    
+	    
+	    
+	    </script>
+		
+	</body>
+	
+	
+	
+</html>

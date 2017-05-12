@@ -1,0 +1,37 @@
+/*公用样式*/
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit;  font-size: 100%; text-align: left; vertical-align: baseline; }
+input, button, select, textarea { outline: none }
+img, a img { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+*{ margin: 0px; padding: 0px; font-family: "微软雅黑";}
+ul { list-style-type: none; }
+a:link, a:visited { text-decoration: none; color: #3d3d3d;}
+em,i,s,b{font-style: normal; text-decoration: none; font-weight:normal ;}
+h1,h2,h3,h4,h5,h6{ font-size: 16px; padding: 0px; margin: 0px;}
+a:hover {text-decoration: underline; color:#CCAD79 !important;}
+
+.header{height:60px; overflow:hidden; border-bottom:#CCAD79  solid 2px;}
+.logo{ float:left; width:300px;}
+.Userib{ float:right; margin-left:300px;}
+.Userib a{ line-height:60px; color:#A3A3A3;}
+.banner{ height:460px; background-image:url(../images/banner.png); background-repeat:no-repeat; background-size:cover;}
+.loginform{width: 1000px;margin-left: auto; margin-right: auto; position:relative;}
+.login-Float-div{border-radius: 5px;/* position:absolute;*/ z-index:10; width:380px; height:370px; background-color:#fff; right:-150px; top:50px; padding:30px; box-sizing:border-box;}
+.login-Float-div h1{ color:#3d3d3d; font-size:18px; margin-bottom:10px;}
+.login-Float-div h2{ border:#e7e7eb solid 1px; height:50px;}
+.login-Float-div h3{ border:#e7e7eb solid 1px; height:50px; border-top:none;}
+.login-Float-div h2 input,.login-Float-div h3 input{ border:none; box-shadow:none; background-color:#fff; display:block; width:100%; height:50px; box-sizing:border-box; background-image:url(../iamges/icon01.png); background-position:20px center; background-repeat:no-repeat; padding-left:50px;}
+.login-Float-div h3 input{ background-image:url(../images/icon02.png);}
+.login-Float-div h4{ font-size:14px; color:#343434; margin:16px 0px;}
+.login-Float-div h4 em{ display:block; margin-right:150px;}
+.login-Float-div h4 span{ display:block; width:150px; float:right; text-align:right;}
+.login-Float-div h4 em s{}
+.login-Float-div h4 em s input{ margin-right:10px;}
+.login-Float-div h5{}
+.login-Float-div h5 button{ display:block; width:200px; background-color:#c7a770; width:120px; line-height:36px; font-size:14px; text-align:center; color:#fff; border:none; box-shadow:none; cursor:pointer;}
+.login-Float-div h5 button:hover{ background-color:#be9c61}
+.container{width: 1000px; margin-left: auto; margin-right: auto; background-color:#fff; overflow: hidden;}
+.body{ min-height:370px;}
+.footer{ border-top:#e3e3e3 solid 1px; height:76px; line-height:76px; font-size:12px; color:#a3a3a3; text-align:center;}
+

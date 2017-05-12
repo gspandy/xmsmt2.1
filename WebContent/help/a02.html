@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />		
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/zhibang.css" />
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+<!-- 		<header class="header"> -->
+<!-- 		  <div class="header-l"><a href="#" class="icon-Left-arrow"></a></div> -->
+<!-- 		  <div class="header-c">邀请你开通VIP啦</div> -->
+<!-- 		  <div class="header-r"><a href="#"></a> </div> -->
+<!-- 		</header> -->
+		
+		
+		
+		<div class="container top-mg50">
+			
+			<!--广告图-->
+			<div class="banner">
+				<img src="img/banner-01.jpg"/>
+				<div class="banner-Text">
+					<dl><dt><s><img src="img/head-pic-02.png"/></s></dt><dd><h1>温暖</h1><h2>朋友们，要感谢有我因为有我，你才有机会成为乔丹内购VIP，动动手指月入过万！！！</h2></dd></dl>
+				</div>
+			</div>
+			<!---->
+			<div class="Shop-body">
+				<div class="shop-line1">
+					<h1><a class="but-link01 pop-but">立即成为VIP</a></h1>
+					<h2><a href="#"><span></span><em>成为VIP是有多赚钱？</em> </a></h2>
+					
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		
+		
+		<!--弹出窗口-->
+		
+		<div class="pop-bg">
+			<div class="pop-box">
+				<div id="pop-con" class="pop-con">
+					<h4><span class="pop-icon-Right"></span></h4>
+					<h1>太棒了！下载APP马上开通VIP 赚钱啦！！！</h1>					
+					<h5><em>太棒了！下载APP马上开通VIP 赚钱啦！！！</em></h5>
+					<h6><s><a class="but-link02 pop-close">稍后下载</a></s><i><a class="but-link01 mobile-but">下载APP</a></i></h6>
+				</div>				
+			</div>			
+		</div>
+		
+		
+		
+		
+		
+		<script>
+		   //弹出窗口
+			$(".pop-but").click(function(){
+				$(".pop-box").show();
+				$(".pop-bg").show();
+			})
+			
+			//关闭窗口
+			$(".pop-close").click(function() {
+				popclose();
+			})
+			
+			function popclose(){
+				$(".pop-box").hide();
+				$(".pop-bg").hide();				
+			}
+		
+			
+			
+			$(".mobile-but").click(function() {
+				var mbinput=$("#mobile-input");
+				var tipinfo=$(".pop-con h5");
+				location.href="http://m.z8ls.com"
+				popclose();
+																		
+				
+					
+				
+				
+			})
+			
+			
+		</script>
+		
+	<div style="margin-top:30%;"><a href="../help/Help-b.html" style="float:right;" onClick=”javascript :history.back(-1);”><img style="position:fixed; bottom:0; right:0; " width="50px" height="50px" src="../help/img/back.jpg"></a></div>
+<SCRIPT language=javascript>
+function go()
+{
+window.history.go(-1);
+}
+setTimeout(“go()”,3000);
+</SCRIPT>	
+		
+		
+	</body>
+	
+	
+	
+</html>

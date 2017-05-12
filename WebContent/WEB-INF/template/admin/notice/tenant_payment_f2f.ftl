@@ -1,0 +1,1 @@
+你在 ${siteName} 购买的商品提货验证码为: ${validatecode}。【${signature}】
